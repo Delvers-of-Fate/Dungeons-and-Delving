@@ -19,3 +19,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Updated `Entities_DMCR.png`.
 - Splash screen.
 - Renamed missiles to match the [ROY G BIV](https://en.wikipedia.org/wiki/ROYGBIV) colors.
+
+### Fixed
+- Fixed the `splash.dat` error.

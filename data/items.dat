@@ -35,28 +35,5 @@
     "yOffset": -0.04,
     "cost": 35
   }
-  ], 
-  "2" : [
-    {
-      "class": "com.interrupt.dungeoneer.entities.items.Sword",
-      "itemType": "sword",
-      "tex": 9,
-      "brokenTex": 1,
-      "spriteAtlas": "melee",
-      "name": "Hawaiian dagger",
-      "baseDamage": 2,
-      "randDamage": 5,
-      "durability": 50,
-      "knockback": 0.5,
-      "reach": 0.45,
-      "speed": 1.0,
-      "chargespeed": 1.0,
-      "cost": 10,
-      "pickupSound": "pu_metal.mp3",
-      "attackAnimation": "daggerAttack",
-      "attackStrongAnimation": "daggerAttackStrong",
-      "chargeAnimation": "daggerCharge",
-      "dropSound": "drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
-    }
   ]
 }
