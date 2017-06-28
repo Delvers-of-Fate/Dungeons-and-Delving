@@ -23,3 +23,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 - Fixed the `splash.dat` error.
+- All `.dat` files are now following the correct JSON format.
