@@ -416,14 +416,25 @@
 						spellColor:{ class:com.badlogic.gdx.graphics.Color, r: 0.85, g: 1, b: 0 }
 					},
 					{
-						class:com.interrupt.dungeoneer.entities.spells.Heal,
-						mpCost:3,
-						heal:2
-					},
-										{
-						class:com.interrupt.dungeoneer.entities.spells.Teleport,
-						mpCost:3
-					}
+                class:com.interrupt.dungeoneer.entities.spells.SpreadMagicMissile,
+                numProjectiles: 5,
+                xSpread: 15.0,
+                ySpread: 5.0,
+                appearance: { tex: 52, texAtlas: "particle" },
+                explosion: {
+                    explosionStartTex: 36,
+                    explosionEndTex: 39,
+                    explosionAnimSpeed: 15.0,
+                    lightMod: 0.3,
+                    explosionLightStartColor: {r: 0.2549, g: 0.8980, b: 0.9098},
+                    explosionLightEndColor: {r: 0, g: 0, b: 1},
+                    explosionLightLifetime: 10,
+                    particleCount: 5,
+                    impulseDistance: 0.4,
+                    randomRoll: 45.0
+                },
+                spellColor:{ class:com.badlogic.gdx.graphics.Color, r: 0.85, g: 1, b: 0 },
+            },
 				],
 				walkSound:"mobs/human/human_steps.mp3",
 				alertSound:"mobs/melee/en_melee_alert_01.mp3,mobs/melee/en_melee_alert_02.mp3,mobs/melee/en_melee_alert_03.mp3",
