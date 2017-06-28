@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - The Underlands theme.
 - Nostalgia deaths to all enemies.
 - Custom missiles that are the colors of the rainbow.
+- Spread Magic Missile added as a spell for enemies.
 
 ### Changed
 - Updated `Entities_DMCR.png`.
