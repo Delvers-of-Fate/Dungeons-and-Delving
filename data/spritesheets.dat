@@ -1,0 +1,20 @@
+[
+    {
+        "columns": 16,
+        "filename": "sprites/entities_dmcr.png",
+        "scale": 1,
+        "name": "entities_dmcr"
+    },
+	{
+        "columns": 16,
+        "filename": "sprites/entities_DunSprites.png",
+        "scale": 1,
+        "name": "entities_DunSprites"
+    },
+	{
+	    "columns": 6,
+        "filename": "sprites/magic_ammo.png",
+        "scale": 0.5,
+        "name": "magic_ammo"
+	},
+]

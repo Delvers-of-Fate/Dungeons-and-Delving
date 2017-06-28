@@ -1,0 +1,38 @@
+[
+    {
+        "columns": 4,
+        "filename": "textures.png",
+        "scale": 1,
+        "name": "t1"
+    },
+    {
+        "columns": 4,
+        "filename": "textures1.png",
+        "scale": 1,
+        "name": "t2"
+    },
+    {
+        "columns": 4,
+        "filename": "textures/Room/textures.png",
+        "scale":1,
+        "name": "room"
+    },
+    {
+    	"columns": 4,
+    	"filename": "textures/Cold/textures.png",
+    	"scale":1,
+    	"name": "cold"
+    },
+    {
+    	"columns": 4,
+    	"filename": "textures/Sewer/textures.png",
+    	"scale":1,
+    	"name": "sewer"
+    },
+    {
+    	"columns": 4,
+    	"filename": "textures/Temple/textures.png",
+    	"scale":1,
+    	"name": "temple"
+    },
+]

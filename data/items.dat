@@ -1,0 +1,45 @@
+{
+    wands:[
+			{
+            class:com.interrupt.dungeoneer.entities.items.Wand,
+            itemType:wand,
+            name:"Hooplah wand",
+            spell: {
+                class:com.interrupt.dungeoneer.entities.spells.SpreadMagicMissile,
+                numProjectiles: 3,
+                xSpread: 15.0,
+                ySpread: 5.0,
+                speed: 0.35,
+                appearance: { tex: 52, texAtlas: "particle" },
+                explosion: {
+                    explosionStartTex: 36,
+                    explosionEndTex: 39,
+                    explosionAnimSpeed: 15.0,
+                    lightMod: 0.3,
+                    explosionLightStartColor: {r: 0.2549, g: 0.8980, b: 0.9098},
+                    explosionLightEndColor: {r: 0, g: 0, b: 1},
+                    explosionLightLifetime: 10,
+                    particleCount: 5,
+                    impulseDistance: 0.4,
+                    randomRoll: 45.0
+                },
+                spellColor:{r:0,g:0.7,b:1},
+                castSound:"magic/mg_ice_shoot_01.mp3,magic/mg_ice_shoot_02.mp3,magic/mg_ice_shoot_03.mp3,magic/mg_ice_shoot_04.mp3",
+                hitSound:"magic/mg_ice_impact_01.mp3,magic/mg_ice_impact_02.mp3,magic/mg_ice_impact_03.mp3,magic/mg_ice_impact_04.mp3"
+            },
+            charges:24,
+            damageType:ICE,
+            baseDamage:2,
+            randDamage:2,
+            tex:1,
+            spriteAtlas:"wands",
+            yOffset:-0.04,
+            cost:35
+			},
+			{
+				
+			},
+			
+			
+         ]			
+	  }	
