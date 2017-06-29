@@ -429,7 +429,7 @@
           "randomRoll": 45.0
         }
       },
-      "Dark Blue": {
+      "Indigo": {
         "class": "com.interrupt.dungeoneer.entities.projectiles.MagicMissileProjectile",
         "tex": 52,
         "endAnimTex": 55,
