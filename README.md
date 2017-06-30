@@ -1,5 +1,5 @@
 # Dungeons-and-Delving
-Dungeons and Delving Mod for Delver
+Dungeons and Delving Mod for Delver, a remake of [Delver Mod Collaboration](https://steamcommunity.com/app/249630/discussions/1/540744936267239298/)
 
 # Features
 ### Enhanced dungeons
