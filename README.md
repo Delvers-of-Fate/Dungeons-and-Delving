@@ -1,17 +1,7 @@
 # Dungeons-and-Delving
 Dungeons and Delving Mod for Delver, a remake of [Delver Mod Collaboration](https://steamcommunity.com/app/249630/discussions/1/540744936267239298/)
 
-# Features
-### Enhanced dungeons
-- Custom starting area
-- More levels
-### Creatures
-- New mobs are found inside the dark caves of Delver.
-### Items
-- Weapons
-- Armor and wearables
-### More resources in DelvEdit
-- Assets you can use you create better maps inside DelvEdit.
+Visit the [wiki](wiki) for more information about the mod!
 
 # How to install
 ### Workshop
