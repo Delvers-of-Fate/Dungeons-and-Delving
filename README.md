@@ -5,8 +5,8 @@ Dungeons and Delving Mod for Delver
 ### Enhanced dungeons
 - Custom starting area
 - More levels
-### Monsters
-- New monsters are found inside the dark caves of Delver.
+### Creatures
+- New mobs are found inside the dark caves of Delver.
 ### Items
 - Weapons
 - Armor and wearables
@@ -21,6 +21,12 @@ Dungeons and Delving Mod for Delver
 1. Download / clone this project
 2. Create a folder in your Delver directory named `mods`
 3. Create yet another folder `DMC` where the project files go
+
+# Contributors
+- [Drake](https://steamcommunity.com/id/Kodraak)
+- [Benny](https://steamcommunity.com/id/Bennyogg)
+- [Hawaii](https://steamcommunity.com/id/Hawaii_Beach)
+- Brinklesby
 
 # Recommended mods
 - [Delver-Unlimited](https://steamcommunity.com/app/249630/discussions/1/135513549095537831/)
