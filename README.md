@@ -1,7 +1,7 @@
 # Dungeons-and-Delving
 Dungeons and Delving Mod for Delver, a remake of [Delver Mod Collaboration](https://steamcommunity.com/app/249630/discussions/1/540744936267239298/)
 
-Visit the [wiki](wiki) for more information about the mod!
+Visit the [wiki](https://github.com/Drakensin/Dungeons-and-Delving/wiki) for more information about the mod!
 
 # How to install
 ### Workshop
