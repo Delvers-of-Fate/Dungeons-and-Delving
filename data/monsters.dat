@@ -417,9 +417,9 @@
 					},
 					{
                 class:com.interrupt.dungeoneer.entities.spells.SpreadMagicMissile,
-                numProjectiles: 5,
+                numProjectiles: 3,
                 xSpread: 15.0,
-                ySpread: 0.0,
+                ySpread: 15.0,
                 appearance: { tex: 52, texAtlas: "particle" },
                 explosion: {
                     explosionStartTex: 36,
