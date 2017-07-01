@@ -17,4 +17,10 @@
         "scale": 0.5,
         "name": "magic_ammo"
 	},
+	{
+	    "columns": 8,
+        "filename": "sprites/items_testing.png",
+        "scale": 0.5,
+        "name": "testing"
+	},
 ]
