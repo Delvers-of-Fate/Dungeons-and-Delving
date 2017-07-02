@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	monsters:{
 		"SEWER" : [
             {
@@ -864,7 +863,6 @@
               particleCount: 5,
               impulseDistance: 0.4,
               randomRoll: 45.0
->>>>>>> 121eb336e0f587a73976f970e1991376094e6348
             },
             spellColor:{ class:com.badlogic.gdx.graphics.Color, r: 0.85, g: 1, b: 0 }
           },
@@ -1017,7 +1015,10 @@
         attackAnimation: { start: 146, end: 146, speed: 30, actions:{"146":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
         hurtAnimation: { start: 147, end: 150, speed: 22 },
         dieAnimation: { start: 151, end: 162, speed: 80 }
-      }
-    ]
-  }
+						}
+					]
+				}
+			}
+		}
+	}
 }
