@@ -24,10 +24,10 @@
         "name": "testing"
 	},
 	{
-        "columns": 8,
-        "filename": "sprites/entities_currency.png",
+        "columns": 2,
+        "filename": "sprites/items_platinum.png",
         "scale": 0.5,
-        "name": "currency",
+        "name": "platinum",
         "y_offset": 0.25
     },
 ]
