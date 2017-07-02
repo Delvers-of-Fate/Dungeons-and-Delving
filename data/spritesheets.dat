@@ -23,4 +23,11 @@
         "scale": 0.5,
         "name": "testing"
 	},
+	{
+        "columns": 8,
+        "filename": "sprites/entities_currency.png",
+        "scale": 0.5,
+        "name": "currency",
+        "y_offset": 0.25
+    },
 ]
