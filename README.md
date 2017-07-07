@@ -3,6 +3,10 @@ Dungeons and Delving Mod for Delver, a remake of [Delver Mod Collaboration](http
 
 Visit the [wiki](https://github.com/Council-Of-The-Delverers/Dungeons-and-Delving/wiki) for more information about the mod!
 
+# Suggested Companions
+- [DMC-core](https://github.com/Council-Of-The-Delverers/DMC-core)
+- [Delver-Unlimited](https://steamcommunity.com/app/249630/discussions/1/135513549095537831/)
+
 # How to install
 ### Workshop
 [![Workshop](http://images.wikia.com/dundef/images/d/de/Steam_workshop.jpg)](https://steamcommunity.com/sharedfiles/filedetails/?id=899625857 "Workshop")
@@ -17,7 +21,3 @@ Visit the [wiki](https://github.com/Council-Of-The-Delverers/Dungeons-and-Delvin
 - Benny
 - Hawaii
 - Brinkle
-
-# Suggested Companions
-- [DMC-core](https://github.com/Council-Of-The-Delverers/DMC-core)
-- [Delver-Unlimited](https://steamcommunity.com/app/249630/discussions/1/135513549095537831/)
