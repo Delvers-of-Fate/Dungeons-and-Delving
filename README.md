@@ -1,7 +1,7 @@
 # Dungeons-and-Delving
 Dungeons and Delving Mod for Delver, a remake of [Delver Mod Collaboration](https://steamcommunity.com/app/249630/discussions/1/540744936267239298/)
 
-Visit the [wiki](https://github.com/Drakensin/Dungeons-and-Delving/wiki) for more information about the mod!
+Visit the [wiki](https://github.com/Council-Of-The-Delverers/Dungeons-and-Delving/wiki) for more information about the mod!
 
 # How to install
 ### Workshop
@@ -13,10 +13,11 @@ Visit the [wiki](https://github.com/Drakensin/Dungeons-and-Delving/wiki) for mor
 3. Create yet another folder `DMC` where the project files go
 
 # Contributors
-- [Drake](https://steamcommunity.com/id/Kodraak)
-- [Benny](https://steamcommunity.com/id/Bennyogg)
-- [Hawaii](https://steamcommunity.com/id/Hawaii_Beach)
-- Brinklesby
+- Drake
+- Benny
+- Hawaii
+- Brinkle
 
-# Recommended mods
+# Suggested Companions
+- [DMC-core](https://github.com/Council-Of-The-Delverers/DMC-core)
 - [Delver-Unlimited](https://steamcommunity.com/app/249630/discussions/1/135513549095537831/)
