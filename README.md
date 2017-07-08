@@ -5,7 +5,7 @@ Visit the [wiki](https://github.com/Council-Of-The-Delverers/Dungeons-and-Delvin
 
 # Suggested Companions
 - [DMC-core](https://github.com/Council-Of-The-Delverers/DMC-core)
-- [Delver-Unlimited](https://steamcommunity.com/app/249630/discussions/1/135513549095537831/)
+- [Delver-Unlimited](https://github.com/Council-Of-The-Delverers/Delver-Unlimited)
 
 # How to install
 ### Workshop
