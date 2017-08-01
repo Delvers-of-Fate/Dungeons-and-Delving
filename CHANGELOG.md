@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Nostalgia deaths to all enemies
 - Spread Magic Missile added as a spell for enemies
 - Fireball added as a spell for enemies
+- New skybox for starting area
 
 ### Changed
 - Updated `Entities_DMCR.png`
