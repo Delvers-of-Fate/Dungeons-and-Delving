@@ -9,18 +9,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - New main menu starting area
 - New starting zone
 - Custom spread entity trap halls
-- Custom_Missiles tag in DelvEdit
-- Custom missiles that players can edit in the `entities.dat`, the names are `Missile_1` to `Missile_10`
 - The Underlands theme
 - Nostalgia deaths to all enemies
 - Spread Magic Missile added as a spell for enemies
 - Fireball added as a spell for enemies
 - New skybox for starting area
+- Missiles that matches the [ROY G BIV](https://en.wikipedia.org/wiki/ROYGBIV) colors
 
 ### Changed
 - Updated `Entities_DMCR.png`
 - Splash screen
-- Renamed missiles to match the [ROY G BIV](https://en.wikipedia.org/wiki/ROYGBIV) colors
 
 ### Fixed
 - Fixed the `splash.dat` error
