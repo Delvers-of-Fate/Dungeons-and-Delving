@@ -1,0 +1,11 @@
+{
+	class: com.interrupt.dungeoneer.entities.Player,
+	maxHp: 8,
+	hp: 8,
+	startingInventory: [
+		{
+			class: com.interrupt.dungeoneer.entities.ItemSpawner,
+			itemName: "Iron dagger"
+		}
+	]
+}

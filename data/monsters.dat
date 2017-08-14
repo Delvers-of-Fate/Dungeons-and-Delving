@@ -422,13 +422,13 @@
           "damageType": "MAGIC",
           "spellColor":{ "class": "com.badlogic.gdx.graphics.Color", "r": 0.85, "g": 1, "b": 0 }
         },
-          {
-            "class": "com.interrupt.dungeoneer.entities.spells.SpreadMagicMissile",
-            "numProjectiles": 5,
-            "xSpread": 15.0,
-            "ySpread": 0.0,
-            "appearance": { "tex": 52, "texAtlas": "particle" },
-            "explosion": {
+        {
+          "class": "com.interrupt.dungeoneer.entities.spells.SpreadMagicMissile",
+          "numProjectiles": 5,
+          "xSpread": 15.0,
+          "ySpread": 0.0,
+          "appearance": { "tex": 52, "texAtlas": "particle" },
+          "explosion": {
               "explosionStartTex": 36,
               "explosionEndTex": 39,
               "explosionAnimSpeed": 15.0,
@@ -440,13 +440,13 @@
               "impulseDistance": 0.4,
               "randomRoll": 45.0
             },
-            "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 0.85, "g": 1, "b": 0 }
-          },
-          {
-            "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
-            "spellColor": { "r": 1.0, "g": 0, "b": 0 },
-            "speed": 0.30,
-            "magicMissileProjectile": {
+          "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 0.85, "g": 1, "b": 0 }
+        },
+        {
+          "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
+          "spellColor": { "r": 1.0, "g": 0, "b": 0 },
+          "speed": 0.30,
+          "magicMissileProjectile": {
               "class": "com.interrupt.dungeoneer.entities.projectiles.MagicMissileProjectile",
               "tex": 88,
               "endAnimTex": 95,
@@ -516,7 +516,7 @@
         "baseLevel": 7,
         "bloodType": "Bone",
         "bloodPoolDecal": { "isActive": false },
-        "bloodSplatterDecal": { "isActive": false },
+        "bloodSplatterDecal": { "isActive": true },
         "spriteAtlas": "entities_dmcr",
         "alertSound": "mobs/skeleton/en_skel_alert_01.ogg,mobs/skeleton/en_skel_alert_02.ogg,mobs/skeleton/en_skel_alert_03.ogg",
         "attackSound": "mobs/skeleton/en_skel_attack_01.ogg,mobs/skeleton/en_skel_attack_02.ogg,mobs/skeleton/en_skel_attack_03.ogg",
@@ -524,8 +524,7 @@
         "hurtSound": "mobs/skeleton/en_skel_hurt_01.ogg,mobs/skeleton/en_skel_hurt_02.ogg,mobs/skeleton/en_skel_hurt_03.ogg",
         "idleSound": "mobs/skeleton/en_skel_idle_01.ogg,mobs/skeleton/en_skel_idle_02.ogg,mobs/skeleton/en_skel_idle_03.ogg",
         "walkAnimation": { "start": 272, "end": 273, "speed": 30 },
-        "attackAnimation": { "start": 274, "end": 275, "speed": 30, "actions": {
-          "275": [{
+        "attackAnimation": { "start": 274, "end": 275, "speed": 30, "actions": { 275: [{
             "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]}
         },
         "hurtAnimation": { "start": 276, "end": 279, "speed": 22 },
