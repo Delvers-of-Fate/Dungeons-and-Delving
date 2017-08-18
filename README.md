@@ -15,9 +15,3 @@ Visit the [wiki](https://github.com/Council-Of-The-Delverers/Dungeons-and-Delvin
 1. Download / clone this project
 2. Create a folder in your Delver directory named `mods`
 3. Create yet another folder `DMC` where the project files go
-
-# Contributors
-- Drake
-- Benny
-- Hawaii
-- Brinkle
