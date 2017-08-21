@@ -30,4 +30,10 @@
         "name": "platinum",
         "y_offset": 0.25
     },
+	{
+        "columns": 8,
+        "filename": "sprites/alcohol_bottles.png",
+        "scale": 0.5,
+        "name": "alcbottles"
+    }
 ]

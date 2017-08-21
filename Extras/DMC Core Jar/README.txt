@@ -1,0 +1,1 @@
+Just replace the files where the EXE is with these to have DMC-Core installed

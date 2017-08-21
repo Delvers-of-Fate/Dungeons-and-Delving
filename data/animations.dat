@@ -29,6 +29,7 @@
 		},
 		"WandAttackSide": {
 			class: "com.interrupt.dungeoneer.gfx.animation.lerp3d.LerpedAnimation",
+			actionTime: 3.0
 			frames: [
 				{ transform: {x:0.3633, y:0.01, z: -0.0483}, rotation: {x:60.5367, y:-13.1533, z:-50.0339}, length:  1.20},
 				{ transform: {x:0.0800, y:0.00, z: -0.0100}, rotation: {x:20.6840, y:  6.1533, z:-15.3002}, length:  1.20},

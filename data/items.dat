@@ -25,6 +25,29 @@
 			"maxItemLevel": 5
 		},
 		{
+			class:com.interrupt.dungeoneer.entities.items.Food,
+			itemType:potion,
+			foodType:booze,
+			spriteAtlas: "alcbottles",
+			tex:1,
+			name:"Dark Wine",
+			yOffset:-0.06,
+			cost:30,
+			pickupSound:"pu_glass.mp3"
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Food,
+			itemType:potion,
+			foodType:booze,
+			spriteAtlas: "alcbottles",
+			tex:2,
+			name:"Smorcish Grogg",
+			yOffset:-0.06,
+			cost:30,
+			pickupSound:"pu_glass.mp3",
+			scale: 1
+		},
+		{
             class:com.interrupt.dungeoneer.entities.items.Wand,
             itemType:wand,
             name:"Lesser ice wand",
