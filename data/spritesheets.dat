@@ -35,5 +35,11 @@
         "filename": "sprites/alcohol_bottles.png",
         "scale": 0.5,
         "name": "alcbottles"
+    },
+	{
+        "columns": 8,
+        "filename": "sprites/DMC_Emitters.png",
+        "scale": 0.5,
+        "name": "DMC_Emitters"
     }
 ]

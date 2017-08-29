@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - `mods_info.json` for [D-U Mod Manager](https://github.com/Council-of-the-Delverers/Delver-Unlimited/wiki/Mod-Manager)
 - Improved sky
+- More alcohols to drink
+- the "Lucky Fist"
 
 ## [0.1.0] - 2017-08-01
 ### Added

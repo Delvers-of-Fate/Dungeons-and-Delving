@@ -1,7 +1,12 @@
 {
 	class: com.interrupt.dungeoneer.entities.Player,
-	maxHp: 8,
-	hp: 8,
+	maxHp: 10,
+	hp: 10,
+		stats: {
+		ATK: 5,
+		SPD: 5,
+		END: 7,
+	},
 	startingInventory: [
 		{
 			class: com.interrupt.dungeoneer.entities.ItemSpawner,

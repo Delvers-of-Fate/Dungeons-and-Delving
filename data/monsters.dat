@@ -144,6 +144,42 @@
         "dieAnimation": { "start": 39, "end": 52, "speed": 75 },
         "spriteAtlas": "entities_DunSprites"
       },
+	        {
+        "class": "com.interrupt.dungeoneer.entities.Monster",
+        "tex": 32,
+        "name": "ELDER TEST",
+        "speed": 0.004,
+        "atk": 1,
+        "ranged": true,
+        "keepDistance": true,
+        "maxHp": 1,
+        "spells": [{
+          "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
+          "mpCost": 10,
+          "baseDamage": 2,
+          "randDamage": 3,
+          "damageType": "FIRE",
+          "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 0, "g": 1, "b": 0 },
+          "castSound": "magic/mg_fire_shoot_01.mp3,magic/mg_fire_shoot_02.mp3,magic/mg_fire_shoot_03.mp3,magic/mg_fire_shoot_04.mp3",
+          "hitSound": "magic/mg_fire_impact_01.mp3,magic/mg_fire_impact_02.mp3,magic/mg_fire_impact_03.mp3,magic/mg_fire_impact_04.mp3"
+        }
+        ],
+        "walkSound": "mobs/human/human_steps.mp3",
+        "attackSound": "mobs/mage/en_mage_attack_01.mp3,mobs/mage/en_mage_attack_02.mp3,mobs/mage/en_mage_attack_03.mp3",
+        "dieSound": "mobs/mage/en_mage_die_01.mp3,mobs/mage/en_mage_die_02.mp3,mobs/mage/en_mage_die_03.mp3,mobs/mage/en_mage_die_04.mp3,mobs/mage/en_mage_die_05.mp3,mobs/human/male_ouch1.mp3",
+        "hurtSound": "mobs/mage/en_mage_hurt_01.mp3,mobs/mage/en_mage_hurt_02.mp3,mobs/mage/en_mage_hurt_03.mp3",
+        "idleSound": "mobs/mage/en_mage_idle_01.mp3,mobs/mage/en_mage_idle_02.mp3,mobs/mage/en_mage_idle_03.mp3",
+        "collision": { "x": 0.3, "y": 0.3, "z":0.8 },
+        "walkAnimation": { "start": 32, "end": 33, "speed": 30 },
+        "attackAnimation": { "start": 34, "end": 34, "speed": 30, "actions": {
+          "34": [{
+            "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"
+          }]}
+        },
+        "hurtAnimation": { "start": 35, "end": 38, "speed": 22 },
+        "dieAnimation": { "start": 39, "end": 52, "speed": 75 },
+        "spriteAtlas": "entities_DunSprites"
+      },
       {
         "class": "com.interrupt.dungeoneer.entities.Monster",
         "tex": 48,
