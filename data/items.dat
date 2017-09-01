@@ -87,6 +87,42 @@
 			pickupSound:"pu_glass.mp3",
 			scale: 1
 		},
+				{
+			class:com.interrupt.dungeoneer.entities.items.Food,
+			itemType:potion,
+			foodType:booze,
+			spriteAtlas: "alcbottles",
+			tex:3,
+			name:"Velvet Dream",
+			yOffset:-0.06,
+			cost:30,
+			pickupSound:"pu_glass.mp3",
+			scale: 1
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Food,
+			itemType:potion,
+			foodType:booze,
+			spriteAtlas: "alcbottles",
+			tex:4,
+			name:"Violet Drugh",
+			yOffset:-0.06,
+			cost:30,
+			pickupSound:"pu_glass.mp3",
+			scale: 1
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Food,
+			itemType:potion,
+			foodType:booze,
+			spriteAtlas: "alcbottles",
+			tex:5,
+			name:"Crystal Death",
+			yOffset:-0.06,
+			cost:30,
+			pickupSound:"pu_glass.mp3",
+			scale: 1
+		},
 		{
             class:com.interrupt.dungeoneer.entities.items.Wand,
             itemType:wand,
