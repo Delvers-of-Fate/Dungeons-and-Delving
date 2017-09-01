@@ -4,17 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [2.1.1]
 ### Added
 - `mods_info.json` for [D-U Mod Manager](https://github.com/Council-of-the-Delverers/Delver-Unlimited/wiki/Mod-Manager)
 - Improved sky
 - More alcohols to drink
-- the "Lucky Fist"
+- Special Cave Surprise
+
+### Changed
+- Monster Damages
 
 ## [0.1.0] - 2017-08-01
 ### Added
 - New main menu starting area
 - New starting zone
+- the "Lucky Fist"
 - Custom spread entity trap halls
 - The Underlands theme
 - Nostalgia deaths to all enemies

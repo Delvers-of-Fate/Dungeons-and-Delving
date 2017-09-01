@@ -25,58 +25,45 @@
 			"maxItemLevel": 5
 		},
 		{
-                class:com.interrupt.dungeoneer.entities.items.Bow,
-                itemType:bow,
-				spriteAtlas: "testing",
-                tex:7,
-                name:"Archangel",
-                baseDamage:3,
-                randDamage:6,
-                knockback:0.2,
-                range:7,
-                speed: 1.125,
-                cost:90,
-                twoHanded:true
+                "class":"com.interrupt.dungeoneer.entities.items.Bow",
+                "itemType":"bow",
+				"spriteAtlas": "testing",
+                "tex":7,
+                "name":"Archangel",
+                "baseDamage":3,
+                "randDamage":6,
+                "knockback":0.2,
+                "range":7,
+                "speed": 1.125,
+                "cost":90,
+                "twoHanded":true
         },
 		{
-                class:com.interrupt.dungeoneer.entities.items.ItemStack,
-                itemType:stack,
-                item: {
-                    class:com.interrupt.dungeoneer.entities.projectiles.Missile,
-					spriteAtlas: "testing",
-                    name:"ARROW",
-					attached: [
-				{
-					class:com.interrupt.dungeoneer.entities.ParticleEmitter,
-					z:0.0,
-					yOffset: 0.1,
-					particleVelocity:{z:0.002},
-					particleRandomSpawnInterval:4.0,
-					particleSpawnCount:5,
-					particleSpread:{x:0.1,y:0.1,z:0.1},
-					particleStartScale:0.3,
-					particleEndScale:0.0,
-					particleRandomVelocity:{x:0.00015,y:0.00015,z:0.002},
-					particlesFullbrite:true,
-					particleLifetime:12.0,
-					particleRandomLifetime:4.0,
-					particleSpawnInterval:8.0,
-					particleColor:{a:1.0,b:0.0,g:1.0,r:0.0},
-					particlesCollide:false,
-					particlesFloat:false,
-					spawnDistance:15.0,
-					z:0.15
-				}
-			],
-                    tex: 1
-                },
-                tex:1,
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				itemType:stack,
 				spriteAtlas: "testing",
-                name:"SOUL ARROW",
-                count:20,
-                yOffset:0.0,
-                cost:5
-        },
+				drawable: {
+				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+				artType: item,
+				drawOffset: {
+					z: -0.18
+				},
+				tex: 1,
+				spriteTex: testing
+				},
+				item: {
+					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
+					name:"ARROW",
+					spriteAtlas: "testing",
+					tex: 1
+				},
+				spriteAtlas: "testing",
+				tex:1,
+				name:"ARROW",
+				count:4,
+				yOffset:-0.11,
+				cost:10
+		}
 		{
 			class:com.interrupt.dungeoneer.entities.items.Food,
 			itemType:potion,

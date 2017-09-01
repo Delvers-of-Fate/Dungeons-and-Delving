@@ -39,7 +39,7 @@
 	{
         "columns": 8,
         "filename": "sprites/DMC_Emitters.png",
-        "scale": 0.5,
+        "scale": 1.0,
         "name": "DMC_Emitters"
     }
 ]

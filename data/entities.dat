@@ -241,20 +241,40 @@
 	"Low Res Options": {
 	  "Animated Sprite": {
 	"class": "com.interrupt.dungeoneer.entities.AnimatedSprite",
-	"tex": 103,
-	"spriteAtlas": "particle",
-	"animation": {
-		"start": 0,
-		"end": 1,
-		"speed": 1,
-		"lastTex": 96,
-		"currentTex": 103,
-		"time": 1,
-		"looping": true,
-		"playing": true
+	"tex": 15
 	},
-"endAnimTex": 103,
-"animSpeed": 1
+	  "Sprite Beam": {
+		"class": "com.interrupt.dungeoneer.entities.SpriteBeam",
+		"tex": 15
+	},
+	  "Monster": {
+		"class": "com.interrupt.dungeoneer.entities.Monster",
+		"artType": "entity",
+		"spriteAtlas": "entity",
+		"stats": {},
+		"bloodPoolDecal": {
+		"tex": 16,
+		"artType": "sprite",
+		"end": 10,
+		"decalWidth": 0.8,
+		"decalHeight": 0.8
+	},
+		"bloodSplatterDecal": {
+		"tex": 17,
+		"artType": "sprite",
+		"end": 10,
+		"decalWidth": 0.5,
+		"decalHeight": 0.5
+	}
+	},
+	  "Light": {
+	  "class": "com.interrupt.dungeoneer.entities.Light",
+	  "range": 3
+	},
+	  "Sprite": {
+	"class": "com.interrupt.dungeoneer.entities.Sprite",
+	"spriteAtlas": "sprite",
+	"isDynamic": false
 	}
 	},
 	"TestShops": {
