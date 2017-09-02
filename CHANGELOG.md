@@ -4,16 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-##[Unreleased]
+## [Unreleased]
 ### Added
  - Sound Assets
 
-## [0.2.0]
+## [0.2.0] - 2017-09-02
 ### Added
 - `mods_info.json` for [D-U Mod Manager](https://github.com/Council-of-the-Delverers/Delver-Unlimited/wiki/Mod-Manager)
 - Improved sky
 - More alcohols to drink
-- Special Cave Surprise
+- Special cave surprise
 
 ### Changed
 - Monster Damages
