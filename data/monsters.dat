@@ -1,6 +1,6 @@
 {
   "monsters":{
-    "SEWER" : [{
+    "DMC SEWER" : [{
       "class": "com.interrupt.dungeoneer.entities.Monster",
       "tex": 144,
       "name": "GOBLIN MAGE",
@@ -218,7 +218,7 @@
       }
 
     ],
-    "DUNGEON" : [
+    "DMC DUNGEON" : [
       {
         "class": "com.interrupt.dungeoneer.entities.Monster",
         "tex": 560,
@@ -240,14 +240,6 @@
             "castSound": "magic/mg_fire_shoot_01.ogg,magic/mg_fire_shoot_02.ogg,magic/mg_fire_shoot_03.ogg,magic/mg_fire_shoot_04.ogg",
             "hitSound": "magic/mg_fire_impact_01.ogg,magic/mg_fire_impact_02.ogg,magic/mg_fire_impact_03.ogg,magic/mg_fire_impact_04.ogg"
           },
-          {
-            "class": "com.interrupt.dungeoneer.entities.spells.Beam",
-            "mpCost": 4,
-            "baseDamage": 1,
-            "randDamage": 2,
-            "damageType": "LIGHTNING",
-            "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 1, "g": 1, "b": 1 }
-          }
         ],
         "walkSound":"mobs/human/human_steps.ogg",
         "alertSound":"mobs/mage/en_mage_alert_01.ogg,mobs/mage/en_mage_alert_02.ogg,mobs/mage/en_mage_alert_03.ogg",
@@ -268,7 +260,7 @@
         "name": "KNIGHT",
         "speed": 0.004,
         "atk": 3,
-        "maxHp": 6,
+        "maxHp": 5,
         "spriteAtlas": "entities_dmcr",
         "alertSound": "mobs/human/male_alert1.ogg,mobs/human/male_alert2.ogg,mobs/human/male_alert3.ogg,mobs/human/male_alert4.ogg",
         "dieSound": "mobs/human/male_ouch1.ogg",
@@ -311,8 +303,9 @@
         "name": "THUG",
         "speed": 0.003,
         "atk": 2,
-        "maxHp": 9,
+        "maxHp": 4,
         "spriteAtlas": "entities_dmcr",
+		"alertSound": "mobs/melee2/en_melee_2_alert_01.ogg,mobs/melee2/en_melee_2_alert_02.ogg,mobs/melee2/en_melee_2_alert_03.ogg,mobs/melee2/en_melee_2_alert_04.ogg",
         "walkSound": "mobs/human/human_steps.ogg",
         "dieSound": "mobs/melee/en_melee_die_01.ogg,mobs/melee/en_melee_die_02.ogg,mobs/melee/en_melee_die_03.ogg",
         "walkAnimation": { "start": 112, "end": 113, "speed": 30 },
@@ -329,7 +322,7 @@
         "tex": 16,
         "name": "SLIMER",
         "speed": 0.0035,
-        "maxHp": 5,
+        "maxHp": 3,
         "atk": 2,
         "chasetarget": false,
         "hasAttackAnim": false,
@@ -380,12 +373,12 @@
         "atk": 1,
         "ranged": true,
         "keepDistance": true,
-        "maxHp": 1,
+        "maxHp": 3,
         "spells": [{
           "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
           "mpCost": 4,
-          "baseDamage": 2,
-          "randDamage": 3,
+          "baseDamage": 1,
+          "randDamage": 2,
           "damageType": "FIRE",
           "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 1, "g": 0, "b": 0 },
           "castSound": "magic/mg_fire_shoot_01.mp3,magic/mg_fire_shoot_02.mp3,magic/mg_fire_shoot_03.mp3,magic/mg_fire_shoot_04.mp3",
@@ -422,7 +415,7 @@
         "name": "ZOMBIE THUG",
         "speed": 0.004,
         "atk": 2,
-        "maxHp": 10,
+        "maxHp": 6,
         "damageType": "POISON",
         "canOpenDoors": false,
         "walkAnimation": { "start": 64, "end": 65, "speed": 30 },
@@ -443,12 +436,12 @@
       {
         "class": "com.interrupt.dungeoneer.entities.Monster",
         "tex": 80,
-        "name": "CLERIC",
+        "name": "BATTLE MAGE",
         "speed": 0.004,
         "atk": 2,
         "ranged": true,
         "keepDistance": false,
-        "maxHp": 4,
+        "maxHp": 3,
         "spriteAtlas": "entities_dmcr",
         "spells": [{
           "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
