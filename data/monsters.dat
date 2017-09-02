@@ -120,10 +120,10 @@
         "spells": [{
           "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
           "mpCost": 10,
-          "baseDamage": 2,
-          "randDamage": 3,
+          "baseDamage": 1,
+          "randDamage": 2,
           "damageType": "FIRE",
-          "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 0, "g": 1, "b": 0 },
+          "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 1, "g": 0, "b": 1 },
           "castSound": "magic/mg_fire_shoot_01.mp3,magic/mg_fire_shoot_02.mp3,magic/mg_fire_shoot_03.mp3,magic/mg_fire_shoot_04.mp3",
           "hitSound": "magic/mg_fire_impact_01.mp3,magic/mg_fire_impact_02.mp3,magic/mg_fire_impact_03.mp3,magic/mg_fire_impact_04.mp3"
         }
@@ -453,9 +453,9 @@
         },
         {
           "class": "com.interrupt.dungeoneer.entities.spells.SpreadMagicMissile",
-          "numProjectiles": 5,
+          "numProjectiles": 3,
           "xSpread": 15.0,
-          "ySpread": 0.0,
+          "ySpread": 15.0,
           "appearance": { "tex": 52, "texAtlas": "particle" },
           "explosion": {
               "explosionStartTex": 36,
