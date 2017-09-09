@@ -41,5 +41,11 @@
         "filename": "sprites/DMC_Emitters.png",
         "scale": 1.0,
         "name": "DMC_Emitters"
-    }
+    },
+    {
+        "columns": 16,
+        "filename": "sprites/entities_scorpion.png",
+        "scale": 1,
+        "name": "entities_scorpion"
+    },
 ]

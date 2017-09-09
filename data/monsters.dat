@@ -218,6 +218,30 @@
       }
 
     ],
+	"CAVE" : [
+			{
+				class:com.interrupt.dungeoneer.entities.Monster,
+				tex:0,
+				name:"SCORPION",
+				speed:0.009,
+				maxHp:4,
+				atk:4,
+				bloodType:Insect,
+				bloodPoolDecal:{isActive:false},
+				bloodSplatterDecal:{isActive:false},
+				canOpenDoors:false,
+				alertSound:"mobs/spider/en_spider_alert_01.mp3,mobs/spider/en_spider_alert_02.mp3,mobs/spider/en_spider_alert_03.mp3",
+				attackSound:"mobs/spider/en_spider_attack_01.mp3,mobs/spider/en_spider_attack_02.mp3,mobs/spider/en_spider_attack_03.mp3",
+				dieSound:"mobs/spider/en_spider_die_01.mp3,mobs/spider/en_spider_die_02.mp3,mobs/spider/en_spider_die_03.mp3",
+				hurtSound:"mobs/spider/en_spider_hurt_01.mp3,mobs/spider/en_spider_hurt_02.mp3,mobs/spider/en_spider_hurt_03.mp3",
+				idleSound:"mobs/spider/en_spider_idle_01.mp3,mobs/spider/en_spider_idle_02.mp3,mobs/spider/en_spider_idle_03.mp3",
+				walkAnimation: { start: 0, end: 3, speed: 30 },
+				attackAnimation: { start: 4, end: 7, speed: 30, actions:{"7":[{class:com.interrupt.dungeoneer.gfx.animation.DamageAction}]} },
+				hurtAnimation: { start: 8, end: 11, speed: 22 },
+				dieAnimation: { start: 12, end: 15, speed: 11 },
+				spriteAtlas: "entities_scorpion"
+			},
+		],
     "DMC DUNGEON" : [
       {
         "class": "com.interrupt.dungeoneer.entities.Monster",
