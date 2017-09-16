@@ -6,9 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.3.0] - 2017-09-13
 ### Added
+<<<<<<< HEAD
  - Sound assets
  - Scorpions
  
+=======
+- Sound assets
+- Scorpions
+
+>>>>>>> origin/master
 ## [0.2.0] - 2017-09-02
 ### Added
 - `mods_info.json` for [D-U Mod Manager](https://github.com/Council-of-the-Delverers/Delver-Unlimited/wiki/Mod-Manager)
