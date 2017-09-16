@@ -48,4 +48,10 @@
         "scale": 1,
         "name": "entities_scorpion"
     },
+	{
+        "columns": 8,
+        "filename": "sprites/Class_Specific.png",
+        "scale": 0.5,
+        "name": "Specific"
+    }
 ]

@@ -1,6 +1,11 @@
 # Dungeons-and-Delving
 Dungeons and Delving Mod for Delver, a remake of [Delver Mod Collaboration](https://steamcommunity.com/app/249630/discussions/1/540744936267239298/)
 
+##################
+!!DISCLAIMER!!
+We do not own some of the music or audio files in this mod. Credit goes to the creators!
+##################
+
 Visit the [wiki](https://github.com/Council-Of-The-Delverers/Dungeons-and-Delving/wiki) for more information about the mod!
 
 # Suggested Companions

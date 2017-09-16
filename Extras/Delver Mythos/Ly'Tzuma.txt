@@ -1,0 +1,12 @@
+Name: Ly'Tzuma
+Known as: The Whispering Flame
+Known Locations: Atrium of the Keepers
+Explorer Notes:
+Day 1: "All packed up with my gear gonna head to the main atrium where the whispers come from."
+Day 4: "Got to the Atrium, the whispers are getting louder, talking to me.. Like something is trying to lead me somewhere.."
+Day 5: "Been following these whispers hoping to find the source. been going through these hallways with strange symbols
+	that I never seen. I am deep into the Atrium that I hope I can find my way back.."
+Day 6: "Found the source of the whispers. It led me to a book of unknown symbolism and transcripts. Decided to take it
+	with me so i can further research."
+Day 9: "I feel someone or something is following me after i took the book, i must press on. I must get out of here!"
+       "I am being chased by some unknown entity! I tried fighting it, but it got too powerful!"

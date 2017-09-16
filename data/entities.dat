@@ -236,8 +236,32 @@
         "collision": { "x": 0.2, "y": 0.2, "z": 0.9 },
         "isDynamic": false,
         "z": -0.5
+    },
+	  "Pedestal:": {
+        "class": "com.interrupt.dungeoneer.entities.Model",
+        "meshFile": "meshes/Pedestal.obj",
+        "textureFile": "textures/Pedestal.png",
+        "collision": { "x": 0.2, "y": 0.2, "z": 0.9 },
+        "isDynamic": false,
+        "z": -0.5
     }
     },
+	"Other Items": {
+	  	"Unusual_Book": {
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			 collision:{
+			 x: 0.1,
+			 y: 0.1,
+			 z: 0.1
+			 },
+			 spriteAtlas: "Specific",
+			 tex:2,
+			 inventoryTex:2,
+			 heldTex:3,
+			 name:"Delver Mythos"
+			},
+		},
 	"Low Res Options": {
 	  "Animated Sprite": {
 	"class": "com.interrupt.dungeoneer.entities.AnimatedSprite",

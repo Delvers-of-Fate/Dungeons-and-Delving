@@ -4,11 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [0.3.0] - 2017-09-13
 ### Added
  - Sound assets
  - Scorpions
-
+ 
 ## [0.2.0] - 2017-09-02
 ### Added
 - `mods_info.json` for [D-U Mod Manager](https://github.com/Council-of-the-Delverers/Delver-Unlimited/wiki/Mod-Manager)

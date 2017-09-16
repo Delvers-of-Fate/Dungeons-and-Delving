@@ -25,6 +25,29 @@
 			"maxItemLevel": 5
 		},
 		{
+    "class":"com.interrupt.dungeoneer.entities.items.Gun",
+    "roll":"45",
+    "tex":"32",
+    "name":"Gunwand",
+    "attackAnimation":"wandAttack",
+    "attackStrongAnimation":"wandAttack",
+    "chargeAnimation":"wandCharge",
+    "fireSound": "explode.mp3,explode_02.mp3,explode_03.mp3,explode_04.mp3"
+    "automatic":"false",
+    "ammoType":"BULLET"
+		},
+		{
+            "class":"com.interrupt.dungeoneer.entities.items.Armor",
+            "itemType":"armor",
+            "tex":2,
+            "inventoryTex":2,
+            "equipLoc":"OFFHAND",
+            "heldTex":3,
+            "spriteAtlas":"Specific",
+            "name":"Unusual Book",
+            "unique":true,
+        },
+		{
                 "class":"com.interrupt.dungeoneer.entities.items.Bow",
                 "itemType":"bow",
 				"spriteAtlas": "testing",
