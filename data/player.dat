@@ -2,24 +2,12 @@
 	class: com.interrupt.dungeoneer.entities.Player,
 	maxHp: 9,
 	hp: 9,
-		stats: {
-		DEF: 10,
-		MAG: 100,
-		HP: 10
-	},
-		calculatedStats: {
-		ATK: 0,
-		DEF: 3,
-		DEX: 0,
-		SPD: 0,
-		MAG: 0,
-		END: 0,
-		HP: 0
-	}
 	startingInventory: [
-		{
+				{
 			class: com.interrupt.dungeoneer.entities.ItemSpawner,
-			itemName: "Iron dagger"
+			itemName: "Arcane Sword"
 		}
-	]
+	],
+	canLevelUp: false,
+	stats: { ATK: 1, DEF: 1, DEX: 1, }
 }

@@ -6,6 +6,13 @@
         "name": "entities_dmcr"
     },
 	{
+        "columns": 6,
+        "filename": "sprites/Arc-Trick.png",
+        "scale": 0.65,
+        "name": "Arc-Trick",
+        "y_offset": 0.25
+    },
+	{
         "columns": 16,
         "filename": "sprites/entities_DunSprites.png",
         "scale": 1,
