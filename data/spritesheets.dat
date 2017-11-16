@@ -1,6 +1,12 @@
 [
     {
         "columns": 16,
+        "filename": "sprites/skullSpider.png",
+        "scale": 1,
+        "name": "skullSpider"
+    },
+    {
+        "columns": 16,
         "filename": "sprites/entities_dmcr.png",
         "scale": 1,
         "name": "entities_dmcr"
@@ -11,6 +17,12 @@
         "scale": 0.65,
         "name": "Arc-Trick",
         "y_offset": 0.25
+    },
+	{
+        "columns": 6,
+        "filename": "sprites/Crystals.png",
+        "scale": 0.65,
+        "name": "Crystals",
     },
 	{
         "columns": 16,
