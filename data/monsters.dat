@@ -1,6 +1,6 @@
 {
   "monsters":{
-    "DMC SEWER" : [{
+    "SEWER" : [{
       "class": "com.interrupt.dungeoneer.entities.Monster",
       "tex": 144,
       "name": "GOBLIN MAGE",
@@ -265,7 +265,7 @@
 				spriteAtlas: "entities_scorpion"
 			},
 		],
-    "DMC DUNGEON" : [
+    "DUNGEON" : [
       {
         "class": "com.interrupt.dungeoneer.entities.Monster",
         "tex": 560,
