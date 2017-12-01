@@ -70,7 +70,7 @@
           "explosionLightStartColor": { "r": 1, "g": 1, "b": 1 },
           "explosionLightEndColor": { "r": 1, "g": 1, "b": 1},
           "explosionLightLifetime": 10,
-          "particleCount": 5,
+          "particleCount": 21,
           "impulseDistance": 0.4,
           "impulseAmount": 0.05,
           "shakeDistance": 0.25,
