@@ -5,6 +5,24 @@
         "scale": 1,
         "name": "skullSpider"
     },
+	    {
+        "columns": 4,
+        "filename": "sprites/GreenFire.png",
+        "scale": 1,
+        "name": "Green Fire"
+    },
+	    {
+        "columns": 4,
+        "filename": "sprites/RedFire.png",
+        "scale": 1,
+        "name": "Red Fire"
+    },
+	    {
+        "columns": 4,
+        "filename": "sprites/VioletFire.png",
+        "scale": 1,
+        "name": "Violet Fire"
+    },
     {
         "columns": 16,
         "filename": "sprites/entities_dmcr.png",
