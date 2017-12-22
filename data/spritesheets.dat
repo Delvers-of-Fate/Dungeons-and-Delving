@@ -6,6 +6,12 @@
         "name": "skullSpider"
     },
 	    {
+        "columns": 8,
+        "filename": "sprites/Classes.png",
+        "scale": 1,
+        "name": "DMC-Classes"
+    },
+	    {
         "columns": 4,
         "filename": "sprites/GreenFire.png",
         "scale": 1,

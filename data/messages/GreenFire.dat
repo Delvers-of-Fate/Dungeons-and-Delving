@@ -2,16 +2,14 @@
 	repeats: false,
 	messages: [
 		[
-			"The flame glows with green. You hear a whisper in your mind..",
+			"~The flame glows with a bright green. You hear a whisper in your mind..~",
 			"Ahhh... What do we have here? An adventurer like you decided to claw into the Atrium..",
-			"Did you know that 4 other adventurers were here before you?",
-			"I watched them all get torn apart in the depths below..",
-			"Now, you have 4 paths to choose from adventurer.. "
-			"Path of the Warrior, Path of the Mage, Path of the Ranger and Path of the Cleric.."
-			"Choose wisely.. Come to me when you choose."
+			"There is much to explore in the depths below. I hope you'll find it... Exciting.."
+			"You have 3 options to choose from adventurer: Warrior, Cleric, and Ranger.."
+			"Each have their own challenges that may impact how you play."
 		],
 		[
-			"Make sure to choose a path. I don't wanna see you die without something valuable.."
+			"Grab the key behind me to begin."
 		]
 	]
 }

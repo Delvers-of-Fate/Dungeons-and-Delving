@@ -25,6 +25,40 @@
 			"maxItemLevel": 5
 		},
 		{
+			"class": "com.interrupt.dungeoneer.entities.items.Armor",
+			"tex": 11,
+			"spriteAtlas": "DMC-Classes",
+			"scale": 0.4,
+			"equipLoc": "RING",
+			"armor":2,
+			"name": "Warrior Bracelet"
+			"baseMods": {
+			"hpMod": 3
+			}
+		},
+				{
+			"class": "com.interrupt.dungeoneer.entities.items.Armor",
+			"tex": 11,
+			"spriteAtlas": "DMC-Classes",
+			"scale": 0.4,
+			"equipLoc": "RING",
+			"name": "Cleric Bracelet"
+			"baseMods": {
+			"magicMod": 2
+			}
+		},
+				{
+			"class": "com.interrupt.dungeoneer.entities.items.Armor",
+			"tex": 11,
+			"spriteAtlas": "DMC-Classes",
+			"scale": 0.4,
+			"equipLoc": "RING",
+			"name": "Ranger Bracelet"
+			"baseMods": {
+			
+			}
+		},
+		{
     "class":"com.interrupt.dungeoneer.entities.items.Gun",
     "roll":"45",
     "tex":"32",
@@ -36,17 +70,6 @@
     "automatic":"false",
     "ammoType":"BULLET"
 		},
-		{
-            "class":"com.interrupt.dungeoneer.entities.items.Armor",
-            "itemType":"armor",
-            "tex":2,
-            "inventoryTex":2,
-            "equipLoc":"OFFHAND",
-            "heldTex":3,
-            "spriteAtlas":"Specific",
-            "name":"Unusual Book",
-            "unique":true,
-        },
 		{
                 "class":"com.interrupt.dungeoneer.entities.items.Bow",
                 "itemType":"bow",
@@ -61,32 +84,20 @@
                 "cost":90,
                 "twoHanded":true
         },
-		{
+			{
 				class:com.interrupt.dungeoneer.entities.items.ItemStack,
 				itemType:stack,
-				spriteAtlas: "testing",
-				drawable: {
-				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
-				artType: item,
-				drawOffset: {
-					z: -0.18
-				},
-				tex: 1,
-				spriteTex: testing
-				},
 				item: {
 					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
 					name:"ARROW",
-					spriteAtlas: "testing",
-					tex: 1
+					tex: 15
 				},
-				spriteAtlas: "testing",
-				tex:1,
+				tex:15,
 				name:"ARROW",
 				count:4,
 				yOffset:-0.11,
 				cost:10
-		}
+			}
 		{
 			class:com.interrupt.dungeoneer.entities.items.Food,
 			itemType:potion,

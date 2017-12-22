@@ -1,0 +1,11 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"The fire wishes to speak to you...",
+		],
+		[
+			"..."
+		]
+	]
+}
