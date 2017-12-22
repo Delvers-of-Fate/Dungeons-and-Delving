@@ -33,7 +33,7 @@
 			"armor":2,
 			"name": "Warrior Bracelet"
 			"baseMods": {
-			"hpMod": 3
+			"hpMod": 1
 			}
 		},
 				{
@@ -55,7 +55,7 @@
 			"equipLoc": "RING",
 			"name": "Ranger Bracelet"
 			"baseMods": {
-			
+			"agilityMod":2
 			}
 		},
 		{
