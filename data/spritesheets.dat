@@ -29,6 +29,12 @@
         "scale": 1,
         "name": "Violet Fire"
     },
+		    {
+        "columns": 4,
+        "filename": "sprites/Aurius.png",
+        "scale": 1,
+        "name": "Aurius"
+    },
     {
         "columns": 16,
         "filename": "sprites/entities_dmcr.png",
