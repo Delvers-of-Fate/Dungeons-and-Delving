@@ -38,7 +38,7 @@
           "flyAwayColor": { "r": 0.2431, "g": 0.1960, "b": 0.1960 },
           "shakeAmount": 10,
           "scale": 2.0
-        }
+        },
       },
       "IceMissile": {
         "class": "com.interrupt.dungeoneer.entities.projectiles.MagicMissileProjectile",
@@ -228,6 +228,50 @@
         }
       }
     },
+	"Scenery": {
+		"ShootStar": {
+		class:com.interrupt.dungeoneer.entities.items.Decoration,
+		itemType:junk,
+		spriteAtlas: sprite
+		tex:8,
+		scale: 0.03,
+		isSolid:false,
+		name:"ShootStar",
+		yOffset:-0.11
+		"attached": [
+		{
+          "class": "com.interrupt.dungeoneer.entities.DynamicLight",
+          "id": "",
+          "range": 1,
+          "lightColor": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "lightType": "fire",
+          "z": -0.1,
+          "hasHalo": true,
+          "haloSize": 1
+        },
+		{
+            "class": "com.interrupt.dungeoneer.entities.SpriteBeam",
+            "tex": 30,
+			"scale": 0.03,
+            "color": {
+              "r": 1, 
+			  "g": 1,
+              "b": 1 },
+            "beamRenderMode": "LINE"
+        },
+		{
+            "class": "com.interrupt.dungeoneer.entities.SpriteBeam",
+            "tex": 30,
+			"scale": 0.03,
+            "color": {
+              "r": 1, 
+			  "g": 1,
+              "b": 1 },
+            "beamRenderMode": "LINE"
+        }
+		],
+	}
+	},
     "Graves": {
       "GraveExtended:": {
         "class": "com.interrupt.dungeoneer.entities.Model",
