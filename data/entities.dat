@@ -228,6 +228,35 @@
         }
       }
     },
+	    "NPCs": {
+		"Brown Dragon": {
+				class: com.interrupt.dungeoneer.entities.Npc,
+				tex: 0,
+				baseAnimation: { start: 0, end: 6, speed: 140 },
+				idleAnimations: [{ start: 0, end: 6, speed: 140 }],
+				spriteAtlas: "DRAGON",
+				animationsBetweenIdles: 2
+			},
+		"Tavern Bard": {
+				class: com.interrupt.dungeoneer.entities.Npc,
+				tex: 0,
+				baseAnimation: { start: 0, end: 6, speed: 140 },
+				idleAnimations: [{ start: 0, end: 6, speed: 140 }],
+				spriteAtlas: "TavBard",
+				animationsBetweenIdles: 2
+			},
+		"Gold": {
+				class:com.interrupt.dungeoneer.entities.items.Gold,
+				collision: {
+				x: 0.05,
+				y: 0.05,
+				z: 0.05
+				},
+				isSolid: true,
+				shader: "magic-item-red",
+				},
+			
+		},
 	"Scenery": {
 		"ShootStar": {
 		class:com.interrupt.dungeoneer.entities.items.Decoration,

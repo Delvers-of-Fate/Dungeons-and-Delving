@@ -6,6 +6,19 @@
         "name": "skullSpider"
     },
 	    {
+        "columns": 7,
+        "filename": "sprites/TavBard.png",
+        "scale": 1,
+        "name": "TavBard"
+    },
+	
+	    {
+        "columns": 7,
+        "filename": "sprites/Dragon_Brown_1.png",
+        "scale": 1.8,
+        "name": "DRAGON"
+    },
+	    {
         "columns": 8,
         "filename": "sprites/Classes.png",
         "scale": 1,
