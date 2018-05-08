@@ -10,7 +10,7 @@
 			"unique": true,
 			"baseDamage":1,
 			"randDamage":5,
-			"durability": 1000,
+			"durability": false,
 			"knockback":5,
 			"reach":0.45,
 			"speed":2.0,

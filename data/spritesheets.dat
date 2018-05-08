@@ -1,5 +1,5 @@
 [
-    {
+		{
         "columns": 16,
         "filename": "sprites/skullSpider.png",
         "scale": 1,
@@ -42,38 +42,38 @@
         "scale": 1,
         "name": "Violet Fire"
     },
-		    {
+		{
         "columns": 4,
         "filename": "sprites/Aurius.png",
         "scale": 1,
         "name": "Aurius"
     },
-    {
+		{
         "columns": 16,
         "filename": "sprites/entities_dmcr.png",
         "scale": 1,
         "name": "entities_dmcr"
     },
-	{
+		{
         "columns": 6,
         "filename": "sprites/Arc-Trick.png",
         "scale": 0.65,
         "name": "Arc-Trick",
         "y_offset": 0.25
     },
-	{
+		{
         "columns": 6,
         "filename": "sprites/Crystals.png",
         "scale": 0.65,
         "name": "Crystals",
     },
-	{
+		{
         "columns": 16,
         "filename": "sprites/entities_DunSprites.png",
         "scale": 1,
         "name": "entities_DunSprites"
     },
-	{
+		{
 	    "columns": 6,
         "filename": "sprites/magic_ammo.png",
         "scale": 0.5,
@@ -85,32 +85,32 @@
         "scale": 0.5,
         "name": "testing"
 	},
-	{
+		{
         "columns": 2,
         "filename": "sprites/items_platinum.png",
         "scale": 0.5,
         "name": "platinum",
         "y_offset": 0.25
     },
-	{
+		{
         "columns": 8,
         "filename": "sprites/alcohol_bottles.png",
         "scale": 0.5,
         "name": "alcbottles"
     },
-	{
+		{
         "columns": 8,
         "filename": "sprites/DMC_Emitters.png",
         "scale": 1.0,
         "name": "DMC_Emitters"
     },
-    {
+		{
         "columns": 16,
         "filename": "sprites/entities_scorpion.png",
         "scale": 1,
         "name": "entities_scorpion"
     },
-	{
+		{
         "columns": 8,
         "filename": "sprites/Class_Specific.png",
         "scale": 0.5,

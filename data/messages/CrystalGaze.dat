@@ -1,0 +1,15 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"You see a cave with a green fire on a brazier. What could this be?"
+		],
+		[
+			"Gazing more, you see an adventurer walking to the flame and kneeling before it."
+			"The adventurer puts down a bowl and cuts his wrist. You see the fire glow blue and he passes out."
+		],
+		[
+			"You see the adventurer passed out with the fire glowing blue."
+		],
+	]
+}

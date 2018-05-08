@@ -257,6 +257,9 @@
 				},
 			
 		},
+	"Decorations": {
+	"Gold": {class:com.interrupt.dungeoneer.entities.items.Gold, collision: {x: 0.05,y: 0.05,z: 0.05},isSolid: true},
+	},
 	"Scenery": {
 		"ShootStar": {
 		class:com.interrupt.dungeoneer.entities.items.Decoration,
@@ -304,7 +307,7 @@
     "Graves": {
       "GraveExtended:": {
         "class": "com.interrupt.dungeoneer.entities.Model",
-        "meshFile": "meshes/VGrave.obj",
+        "meshFile": "meshes/lantern1.obj",
         "textureFile": "textures/VGrave.png",
         "collision": { "x": 0.2, "y": 0.2, "z": 0.9 },
         "isDynamic": false,
