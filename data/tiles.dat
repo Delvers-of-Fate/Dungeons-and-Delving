@@ -1,0 +1,22 @@
+{
+	tileData: {
+		"t1": {
+			"3": { class:com.interrupt.dungeoneer.tiles.TileData, isWater: true, lightColor: { r: 0, g: 0.25, b: 1 }, mapColor: { r: 0, g: 0.5, b: 1.0 }, particleTex: 28, flowTex: 26, edgeTex: 23, walkSound: "footsteps/feet_water_01.mp3,footsteps/feet_water_02.mp3,footsteps/feet_water_03.mp3,footsteps/feet_water_04.mp3", ambientSound: "ambient/env_waterfall.mp3", ambientSoundVolume: 0.05, flowingSoundVolume: 0.6, ambientSoundRadius: 8.0 },
+			"24": { class:com.interrupt.dungeoneer.tiles.TileData, isWater: true, lightColor: { r: 0.6941, g: 0.1686, b: 0.1372 }, mapColor: { r: 1.0, g: 0.0, b: 0.0 }, hurts: 1, damageType: "FIRE", particleTex: 24, particleFullbrite: true, flowTex: 25, edgeTex: 20, flowEdgeTex: 59, particleColor: {r: 1.0, g: 0.2, b: 0.0 }, ambientSound: "ambient/env_lava.mp3", ambientSoundRadius: 9.0 },
+			"36": { class:com.interrupt.dungeoneer.tiles.TileData, drawCeiling: false, drawWalls: false },
+			"27": { class:com.interrupt.dungeoneer.tiles.TileData, mapColor: { r: 0.2705, g: 0.509, b: 0.227 }, walkSound: "footsteps/feet_grass_01.mp3,footsteps/feet_grass_02.mp3,footsteps/feet_grass_03.mp3,footsteps/feet_grass_04.mp3" },
+			"40": { class:com.interrupt.dungeoneer.tiles.TileData, mapColor: { r: 0.2705, g: 0.509, b: 0.227 }, walkSound: "footsteps/feet_grass_01.mp3,footsteps/feet_grass_02.mp3,footsteps/feet_grass_03.mp3,footsteps/feet_grass_04.mp3" },
+			"44": { class:com.interrupt.dungeoneer.tiles.TileData, mapColor: { r: 0.2705, g: 0.509, b: 0.227 }, walkSound: "footsteps/feet_grass_01.mp3,footsteps/feet_grass_02.mp3,footsteps/feet_grass_03.mp3,footsteps/feet_grass_04.mp3" },
+			"48": { class:com.interrupt.dungeoneer.tiles.TileData, mapColor: { r: 0.364, g: 0.286, b: 0.270 } },
+			"45": { class:com.interrupt.dungeoneer.tiles.TileData, mapColor: { r: 0.364, g: 0.286, b: 0.270 } },
+			"49": { class:com.interrupt.dungeoneer.tiles.TileData, mapColor: { r: 0.364, g: 0.286, b: 0.270 } },
+			"41": { class:com.interrupt.dungeoneer.tiles.TileData, mapColor: { r: 0.364, g: 0.286, b: 0.270 } },
+			"13": { class:com.interrupt.dungeoneer.tiles.TileData, walkSound: "footsteps/feet_wood_01.mp3,footsteps/feet_wood_02.mp3,footsteps/feet_wood_03.mp3,footsteps/feet_wood_04.mp3" },
+			"21": { class:com.interrupt.dungeoneer.tiles.TileData, walkSound: "footsteps/feet_carpet_01.mp3,footsteps/feet_carpet_02.mp3,footsteps/feet_carpet_03.mp3,footsteps/feet_carpet_04.mp3" },
+			"37": { class:com.interrupt.dungeoneer.tiles.TileData, darkenFloor: true, mapColor: { r: 0.0, g: 0.0, b: 0.0 }, entitiesCanSpawn: false, hurts: 1000, damageType: "PHYSICAL" }
+		},
+		"sewer": {
+			"6": { class:com.interrupt.dungeoneer.tiles.TileData, isWater: true, lightColor: { r: 0, g: 0.25, b: 1 }, mapColor: { r: 0, g: 0.5, b: 1.0 }, particleTex: 28, edgeTex: 16, flowTex: 7, walkSound: "footsteps/feet_water_01.mp3,footsteps/feet_water_02.mp3,footsteps/feet_water_03.mp3,footsteps/feet_water_04.mp3", ambientSound: "ambient/env_waterfall.mp3", ambientSoundVolume: 0.05, flowingSoundVolume: 0.6, ambientSoundRadius: 8.0 }
+		}
+	}
+}

@@ -1,0 +1,2 @@
+Grabs weapon, spawns the monsters. find key to open next level. Gets harder each level. Each level has different weapon
+and probably monsters against.

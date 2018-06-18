@@ -1,0 +1,684 @@
+{
+	chunkTiles: 17,
+	mapChunks: 4,
+	mapComplexity: 5,
+	lakes: [],
+	exitDown: {
+		class: com.interrupt.dungeoneer.entities.Stairs,
+		tex: 7,
+		spriteAtlas: dungeon_sprites,
+		tileMaterial: { tex: 9, texAtlas: "t1"}
+	},
+    exitUp: {
+		class: com.interrupt.dungeoneer.entities.Stairs,
+		tex: 7,
+		spriteAtlas: dungeon_sprites,
+		tileMaterial: { tex: 8, texAtlas: "t1"}
+	},
+	spawnLights: [
+			{
+            	class: com.interrupt.dungeoneer.entities.Torch,
+            	texAnimStart: 32,
+            	texAnimEnd: 39,
+            	spriteAtlas: "dungeon_sprite",
+            	torchAnimateMode: LOOP,
+            	fullbrite: true,
+            	yOffset:0.125,
+            	lightColor: { r: 1.0, g: 0.8, b: 0.2, a: 1.0 },
+            	emitter: {
+            	class:com.interrupt.dungeoneer.entities.ParticleEmitter,
+            		z:-0.25,
+            		scale: 0.5,
+            		particleVelocity:{z:0.01},
+            		particleRandomSpawnInterval:2.5,
+            		particleStartTex: 64,
+            		particleEndTex: 69,
+            		particleSpawnCount:1,
+            		particleRandomSpawnCount: 1,
+            		particleSpread:{x:0.2, y:0.2, z:-0.25},
+            		particleRandomVelocity:{z:0.008},
+            		particlesFullbrite:true,
+            		particleLifetime:25.0,
+            		particleRandomLifetime:10.0,
+            		particleSpawnInterval:90.0,
+            		particleColor:{a:1,	b:0.95686275, g:0.95686275,	r: 1},
+            		particlesCollide:false,
+            		particlesFloat:true,
+            		spawnDistance:15.0
+            	}
+            }
+	],
+	doors: [
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 34, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_0.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 35, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_1.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 35, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_1.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 35, collision:{x:0.1,y:0.5,z:0.96}, doorMesh: "meshes/door_1.obj", doorTexture: "door.png", stuckChance: 10.0, breakSound: "break/break_wood_01.mp3,break/break_wood_02.mp3,break/break_wood_03.mp3" },
+		{ tex: 0, collision:{x:0.1,y:0.5,z:0.96}, doorOpenType: "SLIDE", openSound: "door_stone_open.mp3", closingSound: "door_stone_close.mp3", closedSound: "door_stone_closed.mp3", doorMesh: "meshes/door_2.obj", doorTexture: "door.png", breakable: false },
+		{ tex: 0, collision:{x:0.1,y:0.5,z:0.96}, doorOpenType: "SLIDE", openSound: "door_stone_open.mp3", closingSound: "door_stone_close.mp3", closedSound: "door_stone_closed.mp3", doorMesh: "meshes/door_3.obj", doorTexture: "door.png", breakable: false }
+	],
+	surprises:[
+        {
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Bomb,Bomb,Bomb,Arrow_Bomb,Arrow_Bomb"
+		},
+        {
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Bomb,Bomb,Bomb,Bomb,Fire_Bomb"
+		},
+		{
+            "class": "com.interrupt.dungeoneer.entities.MonsterSpawner",
+            "monsterTheme": "SURPRISE",
+            "monsterName": "RED_SLIME"
+        },
+        {
+            "class": "com.interrupt.dungeoneer.entities.MonsterSpawner",
+            "monsterTheme": "SURPRISE",
+            "monsterName": "SPIDER"
+        },
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Treasure"
+		}
+	],
+	decorations: [
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:56,
+			name:"Skull",
+			yOffset:-0.11
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:74,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:75,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:56,
+			name:"Skull",
+			yOffset:-0.11
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Breakables",
+			name: "Pot"
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Breakables",
+			name: "Pot"
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Clutter",
+			name: "Skeleton"
+		},
+		{
+			class: com.interrupt.dungeoneer.entities.items.Note,
+			name: "Note",
+			messageFile: "dungeonNotes/castle.dat",
+			calcStepHeight: 0.1,
+			tex: 60
+		}
+	],
+	texturePainters: {
+		"t1": {
+			wall: { "0": [0, 0, 0, 0, 0, 0, 0, 7, 11], "11": [11, 11, 0] },
+			floor: { "2": [2, 2, 2, 2, 2, 2, 12, 33], "54": [54,54,54,54,54,54,55,58] },
+			ceiling: { "1": [1, 1, 1, 1, 1, 1, 1, 32] }
+		},
+		"dungeon": {
+            wall: {
+                "0": [0, 0, 0, 0, 0, 1, 1, 2, 2, 3],
+                "4": [4, 4, 4, 4, 4, 5, 5, 6, 6, 7]
+            },
+            floor: {
+                "8": [8, 8, 8, 8, 8, 8, 9, 9, 9, 10],
+                "24": [24, 24, 24, 24, 24, 25, 25, 25, 26, 26]
+            },
+            ceiling: {
+                "1": [1]
+            }
+        }
+	},
+	genInfos: [
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "fog",
+			floorTex: 8,
+			textureAtlas: "dungeon",
+			chance: 0.05,
+			clusterCount: 1,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				"class": "com.interrupt.dungeoneer.entities.FogSprite",
+				"scale": 1.5}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "fog on water",
+			floorTex: 3,
+			textureAtlas: "t1",
+			chance: 0.06,
+			clusterCount: 1,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				"class": "com.interrupt.dungeoneer.entities.FogSprite",
+				"scale": 1.75,
+				yOffset: 0.4}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "fog on lava",
+			floorTex: 24,
+			textureAtlas: "t1",
+			chance: 0.06,
+			clusterCount: 1,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				"class": "com.interrupt.dungeoneer.entities.FogSprite",
+				"scale": 1.75,
+				yOffset: 0.4,
+				fogColor: { r: 1.0, g: 0.3, b: 0.1, a: 1.0 },
+				fullbrite: true
+				}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks",
+			floorTex: 8,
+			textureAtlas: "dungeon",
+			chance: 0.10,
+			clusterCount: 2,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks",
+			floorTex: 9,
+			textureAtlas: "dungeon",
+			chance: 0.10,
+			clusterCount: 2,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks",
+			floorTex: 10,
+			textureAtlas: "dungeon",
+			chance: 0.6,
+			clusterCount: 2,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks",
+			floorTex: 12,
+			textureAtlas: "dungeon",
+			chance: 0.2,
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks",
+			floorTex: 13,
+			textureAtlas: "dungeon",
+			chance: 0.11,
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks",
+			floorTex: 14,
+			textureAtlas: "dungeon",
+			chance: 0.11,
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.05,
+			floorTex: 8,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.5,
+			floorTex: 9,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.045,
+			floorTex: 10,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.10,
+			floorTex: 12,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.1,
+			floorTex: 13,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.1,
+			floorTex: 14,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative dead grass",
+			chance: 0.028,
+			floorTex: 9,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 3,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative dead grass",
+			chance: 0.028,
+			floorTex: 10,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [
+			{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 3,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}
+			]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Critters",
+			chance: 0.015,
+			floorTex: 8,
+			textureAtlas: "dungeon",
+			clusterCount: 1,
+			clusterSpread: 0.1,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Prefab,
+				category: "Groups",
+				name: "Flies"
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Hanging moss",
+			chance: 0.09,
+			ceilTex: 11,
+			textureAtlas: "dungeon",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 2,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+        {
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "Stone Blocks on Wall(0)",
+            chance: 0.36,
+            wallTex: 0,
+            textureAtlas: "dungeon",
+            attachWall: true,
+            attachFloor: false,
+            spawns: [
+                {
+                    "class": "com.interrupt.dungeoneer.entities.Prefab",
+                    "category": "Dungeon Sets",
+                    "name": "Wall Stone Block",
+                    "z": 0.125
+                }
+            ]
+        },
+        {
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "Stone Blocks on Wall(2)",
+            chance: 0.3,
+            wallTex: 2,
+            textureAtlas: "dungeon",
+            attachWall: true,
+            attachFloor: false,
+            spawns: [
+                {
+                    "class": "com.interrupt.dungeoneer.entities.Prefab",
+                    "category": "Dungeon Sets",
+                    "name": "Wall Stone Block",
+                    "z": 0.125
+                }
+            ]
+        },
+		{
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "Post on Wall",
+            chance: 0.1,
+            wallTex: 0,
+            floorTex: null,
+            ceilTex: null,
+            textureAtlas: "dungeon",
+            attachWall: true,
+            attachFloor: false,
+            placeInCorner: "never",
+            spawns: [
+                {
+                    class:com.interrupt.dungeoneer.entities.Prefab,
+                    category: "Dungeon Sets",
+                    name: "Wood Post",
+                    z: 1.5
+                }
+            ]
+        },
+        {
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "Post on Wall",
+            chance: 0.1,
+            floorTex: 8,
+            floorTex: null,
+            ceilTex: null,
+            textureAtlas: "dungeon",
+            attachWall: true,
+            attachFloor: false,
+            placeInCorner: "never",
+            spawns: [
+                {
+                    class:com.interrupt.dungeoneer.entities.Prefab,
+                    category: "Dungeon Sets",
+                    name: "Wood Post",
+                    z: 1.5
+                }
+            ]
+        },
+        {
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "Dirt in corner",
+            chance: 0.2,
+            floorTex: 8,
+            placeInCorner: "only",
+            attachWall: true,
+            textureAtlas: "dungeon",
+            spawns: [{
+                 class:com.interrupt.dungeoneer.entities.Prefab,
+                 category: "Dungeon Sets",
+                 name: "Dirt Pile"
+             }]
+        },
+		{
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "Crate in corner",
+            chance: 0.0625,
+            floorTex: 8,
+            clusterSpread: 0.15,
+            placeInCorner: "only",
+            textureAtlas: "dungeon",
+            spawns: [{
+                 class:com.interrupt.dungeoneer.entities.Prefab,
+                 category: "Breakables",
+                 name: "Crate"
+             }]
+        },
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Hanging roots",
+			chance: 0.06,
+			ceilTex: 11,
+			textureAtlas: "dungeon",
+			clusterCount: 2,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 21,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 22,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Spiderweb",
+			chance: 0.06,
+			ceilTex: 11,
+			textureAtlas: "dungeon",
+			clusterCount: 1,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 23,
+				spriteAtlas: "dungeon_sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "small mushroom patch",
+			chance: 0.015,
+			floorTex: 8,
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 13,
+				spriteAtlas: "sprite",
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Glowing crystals",
+			chance: 0.009,
+			floorTex: 2,
+			clusterSpread: 0.4,
+			spawns: [
+				{
+					class:com.interrupt.dungeoneer.entities.Light,
+					lightColor:{"a":0.0,"b":0.6,"g":0.0,"r":0.0}
+				},
+				{
+				   class:com.interrupt.dungeoneer.entities.Model,
+				   meshFile: "meshes/crystal.obj",
+				   isSolid: false,
+				   collision:{x:0.2,y:0.2,z:0.2},
+				   isDynamic: false
+				},
+				{
+					class:com.interrupt.dungeoneer.entities.Foliage,
+					tex: 13,
+					spriteAtlas: "sprite",
+					isDynamic: false
+				},
+				{
+					class:com.interrupt.dungeoneer.entities.Foliage,
+					tex: 13,
+					spriteAtlas: "sprite",
+					isDynamic: false
+				},
+				{
+					class:com.interrupt.dungeoneer.entities.Foliage,
+					tex: 13,
+					spriteAtlas: "sprite",
+					isDynamic: false
+				},
+				{
+					class:com.interrupt.dungeoneer.entities.Prefab,
+					category: "Groups",
+					name: "Flies"
+				}
+			]
+		}
+	]
+}

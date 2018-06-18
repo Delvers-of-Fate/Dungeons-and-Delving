@@ -1,75 +1,51 @@
 {
 	"unique": [
-		{
-			"class":"com.interrupt.dungeoneer.entities.items.Sword",
-			"itemType":"sword",
-			"tex":0,
-			"brokenTex":1,
-			"spriteAtlas":"testing",
-			"name":"Lucky Fist",
-			"unique": true,
-			"baseDamage":1,
-			"randDamage":5,
-			"durability": false,
-			"knockback":5,
-			"reach":0.45,
-			"speed":2.0,
-			"chargespeed":1.0,
-			"cost":500,
-			"pickupSound":"pu_metal.mp3",
-			"attackAnimation":"daggerAttack",
-			"attackStrongAnimation":"StrongAttack2",
-			"chargeAnimation":"daggerCharge",
-			"dropSound":"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
-			"minItemLevel": 1,
-			"maxItemLevel": 5
+			{
+            class:com.interrupt.dungeoneer.entities.items.Armor,
+            itemType:armor,
+            tex:0,
+            spriteAtlas:"ArtiNeck",
+            name:"Artineck",
+            unique: true,
+            armor:3,
+            durability:50,
+            equipLoc:"AMULET",
+            yOffset:-0.33,
+            cost:1000,
+            pickupSound:"pu_gen_v2.mp3",
+            minItemLevel: 2,
+            maxItemLevel: 8,
+            baseMods: { hpMod: 1, agilityMod: 1 },
+			scale: 0.5,
+			},
+			{
+			class:com.interrupt.dungeoneer.entities.items.Wand,
+			itemType:wand,
+			name:"CastStaff",
+			unique: true,
+			magicStatBoostMod: 6,
+			spell: {
+				class:com.interrupt.dungeoneer.entities.spells.Beam,
+				spellColor: {r:0.6172,g:0.0937,b:0.7695},
+				beamScale: 1.5,
+				startTex: 40,
+				endTex: 41
+			},
+			charges:20,
+			damageType:MAGIC,
+			baseDamage:1,
+			randDamage:1,
+			autoFire: true,
+			autoFireTime: 10,
+			tex:32,
+			spriteAtlas:"unique",
+			yOffset: 0.0,
+			cost:1000,
+			minItemLevel: 2,
+            maxItemLevel: 10,
+            baseMods: { moveSpeedMod: 1, armorMod: 1, hpMod: 2 }
 		},
-		{
-			"class": "com.interrupt.dungeoneer.entities.items.Armor",
-			"tex": 11,
-			"spriteAtlas": "DMC-Classes",
-			"scale": 0.4,
-			"equipLoc": "RING",
-			"armor":2,
-			"name": "Warrior Bracelet"
-			"baseMods": {
-			"hpMod": 1
-			}
-		},
-				{
-			"class": "com.interrupt.dungeoneer.entities.items.Armor",
-			"tex": 11,
-			"spriteAtlas": "DMC-Classes",
-			"scale": 0.4,
-			"equipLoc": "RING",
-			"name": "Cleric Bracelet"
-			"baseMods": {
-			"magicMod": 2
-			}
-		},
-				{
-			"class": "com.interrupt.dungeoneer.entities.items.Armor",
-			"tex": 11,
-			"spriteAtlas": "DMC-Classes",
-			"scale": 0.4,
-			"equipLoc": "RING",
-			"name": "Ranger Bracelet"
-			"baseMods": {
-			"agilityMod":2
-			}
-		},
-		{
-    "class":"com.interrupt.dungeoneer.entities.items.Gun",
-    "roll":"45",
-    "tex":"32",
-    "name":"Gunwand",
-    "attackAnimation":"wandAttack",
-    "attackStrongAnimation":"wandAttack",
-    "chargeAnimation":"wandCharge",
-    "fireSound": "explode.mp3,explode_02.mp3,explode_03.mp3,explode_04.mp3"
-    "automatic":"false",
-    "ammoType":"BULLET"
-		},
+			
 		{
                 "class":"com.interrupt.dungeoneer.entities.items.Bow",
                 "itemType":"bow",
@@ -79,84 +55,121 @@
                 "baseDamage":3,
                 "randDamage":6,
                 "knockback":0.2,
-                "range":7,
+                "range":1,
+				"yOffset": -0.33,
                 "speed": 1.125,
                 "cost":90,
                 "twoHanded":true
         },
-			{
+		{
+                "class":"com.interrupt.dungeoneer.entities.items.Bow",
+                "itemType":"bow",
+				"spriteAtlas": "RTRAP",
+                "tex":2,
+                "name":"BearTrap",
+                "baseDamage":0,
+                "randDamage":1,
+                "knockback":0.2,
+                "range":1,
+				"scale":1.0,
+				"yOffset": -0.33,
+                "speed": 1.125,
+                "cost":90,
+                "twoHanded":false
+		},
+						{
 				class:com.interrupt.dungeoneer.entities.items.ItemStack,
 				itemType:stack,
 				item: {
 					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
-					name:"ARROW",
-					tex: 15
+					name:"TrapArrow",
+					tex: 15,
+			 attached: [
+                  {
+                        class: com.interrupt.dungeoneer.entities.Explosion,
+                        makeDustRing:false,
+                        //tex: 7,
+                        color: {r:0.6172,g:0.9937,b:0.7695,a:1.0},
+                        dustRingColor: {r:0.6172,g:0.9937,b:0.7695,a:1.0},
+                        damage: 2,
+                        damageType: "PARALYZE",
+                        explosionStartTex: 18,
+              					explosionEndTex: 23,
+              					explosionAnimSpeed: 22,
+                        lightMod: 0.2,
+              					particleCount: 0,
+              					shakeAmount: 2,
+              					shakeDistance: 2,
+              					explosionLightLifetime: 6,
+                        impulseAmount: 0.5,
+                        impulseDistance: 0.5,
+                        yOffset: -0.2,
+                        explodeDelay: 22,
+                        hitDecal: {
+                            tex: 19,
+                            decalWidth: 1.2,
+                            decalHeight: 1.2,
+                            artType: sprite
+                        },
+                        explodeSound: null,
+						  spawns: [{
+                          class: com.interrupt.dungeoneer.entities.Prefab,
+                          name: "Poison Trap",
+                          category: "Rogue Items"
+                        }]
+                  },
+		]
 				},
-				tex:15,
-				name:"ARROW",
+				stackType:"ARROW",
+				spriteAtlas: "DMC-Classes",
+				tex:4,
+				name:"TrapArrows",
 				count:4,
-				yOffset:-0.11,
-				cost:10
-			}
-		{
-			class:com.interrupt.dungeoneer.entities.items.Food,
-			itemType:potion,
-			foodType:booze,
-			spriteAtlas: "alcbottles",
-			tex:1,
-			name:"Dark Wine",
-			yOffset:-0.06,
-			cost:30,
-			pickupSound:"pu_glass.mp3"
-		},
-		{
-			class:com.interrupt.dungeoneer.entities.items.Food,
-			itemType:potion,
-			foodType:booze,
-			spriteAtlas: "alcbottles",
-			tex:2,
-			name:"Smorcish Grogg",
-			yOffset:-0.06,
-			cost:30,
-			pickupSound:"pu_glass.mp3",
-			scale: 1
-		},
+				scale: 0.5,
+				yOffset:-0.33,
+				cost:10,
+				attached: [
 				{
-			class:com.interrupt.dungeoneer.entities.items.Food,
-			itemType:potion,
-			foodType:booze,
-			spriteAtlas: "alcbottles",
-			tex:3,
-			name:"Velvet Dream",
-			yOffset:-0.06,
-			cost:30,
-			pickupSound:"pu_glass.mp3",
-			scale: 1
-		},
-		{
-			class:com.interrupt.dungeoneer.entities.items.Food,
-			itemType:potion,
-			foodType:booze,
-			spriteAtlas: "alcbottles",
-			tex:4,
-			name:"Violet Drugh",
-			yOffset:-0.06,
-			cost:30,
-			pickupSound:"pu_glass.mp3",
-			scale: 1
-		},
-		{
-			class:com.interrupt.dungeoneer.entities.items.Food,
-			itemType:potion,
-			foodType:booze,
-			spriteAtlas: "alcbottles",
-			tex:5,
-			name:"Crystal Death",
-			yOffset:-0.06,
-			cost:30,
-			pickupSound:"pu_glass.mp3",
-			scale: 1
-		},
+				"class": "com.interrupt.dungeoneer.entities.ParticleEmitter",
+				"id": "",
+				"tex": 0,
+				"artType": "hidden",
+				"spriteAtlas": null,
+				"collision": {
+					"x": 0.2,
+					"y": 0.2,
+					"z": 0.5
+				},
+				"dropSound": "drops/drop_soft.ogg",
+				"particleHalos": true,
+				"particleHalo": "BOTH",
+				"particleLifetime": 100,
+				"particlesCollide": false,
+				"particleSpread": {
+					"x": 0.5,
+					"y": 0.5,
+					"z": 0.5,
+				},
+				"particleRandomVelocity": {
+					"x": 0.004,
+					"y": 0.004
+				},
+				"particlesFloat": true,
+				"particleEndScale": 0,
+				"particlesFullbrite": true,
+				"particleSpawnCount": 1,
+				"particleSpawnInterval": 25,
+				"particleRandomSpawnInterval": 2,
+				"particleRandomLifetime": 25,
+				"particleColor": {
+					"r": 0.0,
+					"g": 0.5,
+					"b": 0.5,
+					"a": 1
+				}
+			}
+			]
+			},
 		{
             class:com.interrupt.dungeoneer.entities.items.Wand,
 			itemType:wand,

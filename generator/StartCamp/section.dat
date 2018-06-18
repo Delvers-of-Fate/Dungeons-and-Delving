@@ -1,0 +1,30 @@
+{
+	difficultyLevel: 1,
+	sortOrder: -1,
+	name: "Camp",
+	floors: 1,
+	levelTemplates: [
+		{
+			class:com.interrupt.dungeoneer.game.Level,
+			dungeonLevel:0,
+			levelName:"Camp",
+			darkness:1,
+			fogStart:2,
+			fogEnd:50,
+			fogColor: { r:0.2,g:0.2,b:0.6},
+			skyLightColor: { r:0.15,g:0.15,b:0.3},
+			viewDistance: 50.0,
+			theme:"OUTDOOR",
+			generated:false,
+			wallPainter: { "0": [0, 0, 0, 0, 0, 0, 0, 7, 11], "11": [11, 11, 0] },
+			floorPainter: { "2": [2, 2, 2, 2, 2, 2, 12, 33], "54": [54,55,58] },
+			ceilPainter: { "1": [1, 1, 1, 1, 1, 1, 1, 32] },
+			levelFileName:"levels/start.bin",
+			spawnMonsters: false,
+			skybox: { meshFile: "meshes/skyEvening.obj", textureFile: "skyBloodmoon3.png" },
+			actionMusic:"chase_ruins.mp3",
+			ambientSound:"env_outdoor.mp3",
+			ambientSoundVolume:"0.5"
+		}
+	]
+}

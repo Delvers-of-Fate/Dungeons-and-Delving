@@ -6,10 +6,23 @@
         "name": "skullSpider"
     },
 	    {
+        "columns": 8,
+        "filename": "sprites/CrossbowTileset.png",
+        "scale": 0.5,
+        "name": "CrossbowTileset",
+        "y_offset": 0.25
+    },
+	    {
         "columns": 7,
         "filename": "sprites/TavBard.png",
         "scale": 1,
         "name": "TavBard"
+    },
+		{
+        "columns": 1,
+        "filename": "sprites/DefTrap.png",
+        "scale": 1,
+        "name": "DefTrap"
     },
 	
 	    {
@@ -18,9 +31,15 @@
         "scale": 1.8,
         "name": "DRAGON"
     },
+		    {
+        "columns": 3,
+        "filename": "sprites/RogueTrap.png",
+        "scale": 0.5,
+        "name": "RTRAP"
+    },
 	    {
-        "columns": 8,
-        "filename": "sprites/Classes.png",
+        "columns": 6,
+        "filename": "sprites/DMC_Classes.png",
         "scale": 1,
         "name": "DMC-Classes"
     },
@@ -29,6 +48,12 @@
         "filename": "sprites/GreenFire.png",
         "scale": 1,
         "name": "Green Fire"
+    },
+	{
+        "columns": 1,
+        "filename": "sprites/ArtiNeck.png",
+        "scale": 1,
+        "name": "ArtiNeck"
     },
 	    {
         "columns": 4,
@@ -97,6 +122,12 @@
         "filename": "sprites/alcohol_bottles.png",
         "scale": 0.5,
         "name": "alcbottles"
+    },
+			{
+        "columns": 2,
+        "filename": "sprites/Tome.png",
+        "scale": 0.5,
+        "name": "Mage Tome"
     },
 		{
         "columns": 8,

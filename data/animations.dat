@@ -27,6 +27,21 @@
 				{ transform: {x: 0.0000, y: 0.0000, z:  0.0},    rotation: {x:  0.0000, y:  0.0000, z:  0.0000}, length: 0.00}
 			]
 		},
+				 "crossbowAttack": {
+		 	class: "com.interrupt.dungeoneer.gfx.animation.lerp3d.LerpedAnimation",
+			frames: [
+				{ transform: {x:0,y:0.07,z:0.05}, rotation:{x:-75,y:10,z:40}, length: 1.5 },
+				{ transform: {x:0,y:0.06,z:0.05}, rotation:{x:-75,y:10,z:40}, length: 1.5 },
+				{ transform: {x:0,y:0.05,z:0}, rotation:{x:-75,y:10,z:40} }
+			]
+		 },
+		 		 "crossbowCharge": {
+		 	class: "com.interrupt.dungeoneer.gfx.animation.lerp3d.LerpedAnimation",
+            frames: [
+                { transform: {x:0.0000, y:0.05, z:0.0000}, rotation: {x:-75, y:10, z:40}, length: 1.50},
+                { transform: {x:-0.0036, y:0.0905, z:-0.0000}, rotation: {x:-75, y:10, z:40}, length:  0.00}
+            ]
+		},
 		"WandAttackSide": {
 			class: "com.interrupt.dungeoneer.gfx.animation.lerp3d.LerpedAnimation",
 			actionTime: 3.0

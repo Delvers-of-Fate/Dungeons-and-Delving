@@ -1,0 +1,52 @@
+{
+	difficultyLevel: 5,
+	sortOrder: 8,
+	name: "Sewer",
+	floors: 2,
+	levelTemplates: [
+		{
+			class:com.interrupt.dungeoneer.game.Level,
+			darkness:1,
+			fogStart:0,
+			fogEnd:12,
+			fogColor: { r:0.1, g:0.56, b:0.53 },
+			theme:"SEWER",
+			roomGeneratorType:SEWER_ROOMS,
+			roomGeneratorChance:0.8,
+			wallPainter: { "0": [0, 0, 0, 0, 1, 1, 1, 2, 3, 3], "4": [4, 4, 4, 4, 4, 4, 4, 5, 5, 5] },
+			floorPainter: { "8": [8, 8, 8, 8, 8, 8, 9, 10, 12, 12] },
+			ceilPainter: { "11": [11, 11, 11, 11, 11, 11, 10, 10, 10, 10] },
+			generated:true,
+			music:"02_descending.mp3,Nathan-3.mp3",
+			actionMusic:"chase_sewers.mp3,DK-5.mp3",
+			ambientSound:"env_indoor.mp3",
+			ambientSoundVolume:"0.15",
+			shadowColor: { r:0.85, g:0.85, b:0.85, a: 1.0 }
+		}
+	],
+	"transitionLevel":{
+            "class":"com.interrupt.dungeoneer.game.Level",
+            "levelName":"The Breach",
+            "darkness":1,
+            "fogStart":0,
+            "fogEnd":18,
+            fogColor: { r:0.23, g:0.05, b:0.23 },
+            "skyLightColor":{
+                "r":0.15,
+                "g":0.15,
+                "b":0.3
+            },
+            "viewDistance":30.0,
+            theme:"SEWER",
+            "generated":"false",
+            wallPainter: { "0": [0, 0, 0, 0, 1, 1, 1, 2, 3, 3], "4": [4, 4, 4, 4, 4, 4, 4, 5, 5, 5] },
+            floorPainter: { "8": [8, 8, 8, 8, 8, 8, 9, 10, 12, 12] },
+            ceilPainter: { "11": [11, 11, 11, 11, 11, 11, 10, 10, 10, 10] },
+            "levelFileName":"levels/sewer-transition.bin",
+            "spawnMonsters":"false",
+            "actionMusic":"chase_ruins.mp3,DK-6.mp3",
+            "loopMusic":"true",
+            "ambientSound":"env_indoor.mp3",
+            "ambientSoundVolume":0.6
+        }
+}

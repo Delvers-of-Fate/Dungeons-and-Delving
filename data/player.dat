@@ -2,6 +2,7 @@
 	class: com.interrupt.dungeoneer.entities.Player,
 	maxHp: 8,
 	hp: 8,
+	gold: 250,
 	originalTorchColor: {
 		r: 0.0,
 		g: 0.0,

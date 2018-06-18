@@ -1,0 +1,46 @@
+{
+	difficultyLevel: 7,
+	sortOrder: 12,
+	name: "Ruins",
+	floors: 2,
+	levelTemplates: [
+		{
+			class:com.interrupt.dungeoneer.game.Level,
+			darkness:1,
+			fogStart:2,
+			fogEnd:18,
+			theme:"UNDEAD",
+			fogStart:0,
+			fogEnd:14,
+			fogColor: { r:0.43, g:0.10, b:0.43 },
+			generated:true,
+			roomGeneratorType:TEMPLE_ROOMS,
+			roomGeneratorChance:0.2,
+			ceilPainter: { "12": [12, 12, 12, 12, 12, 12, 13, 13, 13, 13] },
+			music:"04_swords_and_skulls.mp3,Nathan-4.mp3",
+			actionMusic:"chase_ruins.mp3",
+			generated:true,
+			ambientSound:"env_indoor.mp3",
+			ambientSoundVolume:"0.15",
+			"viewDistance":30.0,
+			traps:["TempleProximitySpikes"]
+		}
+	],
+	transitionLevel: {
+		class:com.interrupt.dungeoneer.game.Level,
+		dungeonLevel:8,
+		levelName:"Yithidia",
+		darkness:1,
+		fogStart:2,
+		fogEnd:20,
+		fogColor: { r:0.23, g:0.07, b:0.23 },
+		theme:"UNDEAD",
+		generated:false,
+		levelFileName:"levels/bosslevel.bin",
+		music:"04_swords_and_skulls.mp3,Nathan-4.mp3",
+		actionMusic:"chase_ruins.mp3",
+		ambientSound:"env_indoor.mp3",
+		"viewDistance":30.0,
+		ambientSoundVolume:"0.15"
+	}
+}

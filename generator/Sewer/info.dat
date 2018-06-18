@@ -1,0 +1,167 @@
+{
+	spawnLights: [ 
+			{ class: com.interrupt.dungeoneer.entities.Torch, spriteAtlas: sewer_sprite, texAnimStart: 8, texAnimEnd: 9, lightColor: { r: 1.0, g: 0.8, b: 0.2, a: 1.0 }, makeFlies: true, haloOffset: 0.5 }
+	],
+	surprises:[
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Bomb,Bomb,Bomb,Arrow_Bomb,Arrow_Bomb"
+		},
+        {
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Bomb,Bomb,Bomb,Bomb,Fire_Bomb"
+		},
+		{
+            "class": "com.interrupt.dungeoneer.entities.MonsterSpawner",
+            "monsterTheme": "SURPRISE",
+            "monsterName": "RED_SLIME"
+        },
+        {
+            "class": "com.interrupt.dungeoneer.entities.MonsterSpawner",
+            "monsterTheme": "SURPRISE",
+            "monsterName": "RED_SLIME"
+        },
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Treasure"
+		}
+	],
+	decorations: [
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:56,
+			name:"Skull",
+			yOffset:-0.11
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:74,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:75,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:56,
+			name:"Skull",
+			yOffset:-0.11
+		}
+	],
+	genInfos: [
+	    {
+            "class":"com.interrupt.dungeoneer.generator.GenInfo",
+            "comment":"fog on water",
+            "floorTex":6,
+            "textureAtlas":"sewer",
+            "chance":0.09,
+            "clusterCount":1,
+            "clusterSpread":0.4,
+            "performanceControlledClustering":"true",
+            "spawns":[
+                {
+                    "class":"com.interrupt.dungeoneer.entities.FogSprite",
+                    "scale":1.75,
+                    "yOffset":0.4
+                }
+            ]
+        },
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Spawn grass on grass tiles)",
+			floorTex: 9,
+			textureAtlas: "sewer",
+			chance: 0.8,
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 1,
+				spriteAtlas: sewer_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Spawn rocks on basic tiles)",
+			floorTex: 8,
+			textureAtlas: "sewer",
+			chance: 0.3,
+			clusterCount: 3,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				spriteAtlas: sewer_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Spiderweb",
+			chance: 0.06,
+			ceilTex: 11,
+			textureAtlas: "sewer",
+			clusterCount: 1,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 6,
+				spriteAtlas: sewer_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Hanging Roots",
+			chance: 0.2,
+			ceilTex: 11,
+			textureAtlas: "sewer",
+			clusterCount: 2,
+			clusterSpread: 0.3,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 4,
+				spriteAtlas: sewer_sprite,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Hanging Roots",
+			chance: 0.25,
+			ceilTex: 11,
+			textureAtlas: "sewer",
+			clusterCount: 3,
+			clusterSpread: 0.4,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 5,
+				spriteAtlas: sewer_sprite,
+				isDynamic: false
+			}]
+		},
+	]
+}

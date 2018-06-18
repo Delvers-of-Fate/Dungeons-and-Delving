@@ -1,0 +1,314 @@
+{
+	"lakes":[],
+    spawnLights: [
+        { class: com.interrupt.dungeoneer.entities.Torch, texAnimStart: 4, texAnimEnd: 11, torchAnimateMode: LOOP, fullbrite: true, haloOffset: 0.7, spriteAtlas: "temple_sprite", lightColor: { r: 1.0, g: 0.8, b: 0.2, a: 1.0 }, emitter: {class:com.interrupt.dungeoneer.entities.ParticleEmitter,z:0.4,particleVelocity:{z:0.02},particleRandomSpawnInterval:40.0,particleSpawnCount:1,particleSpread:{x:0.0,y:0.0,z:0.0},particleStartScale:1.0,particleEndScale:0.0,particleRandomVelocity:{x:0.003,y:0.003,z:0.01},particlesFullbrite:true,particleLifetime:10.0,particleRandomLifetime:10.0,particleSpawnInterval:80.0,particleColor:{a:1.0,b:0.04,g:0.5,r:1.0},particlesCollide:false,particlesFloat:true,spawnDistance:15.0} }
+    ],
+	surprises:[
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Bomb,Bomb,Bomb,Arrow_Bomb,Arrow_Bomb"
+		},
+        {
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Bomb,Bomb,Bomb,Bomb,Fire_Bomb"
+		},
+		{
+            "class": "com.interrupt.dungeoneer.entities.MonsterSpawner",
+            "monsterTheme": "SURPRISE",
+            "monsterName": "SPIDER"
+        },
+        {
+            "class": "com.interrupt.dungeoneer.entities.MonsterSpawner",
+            "monsterTheme": "SURPRISE",
+            "monsterName": "SPIDER"
+        },
+		{
+			class:com.interrupt.dungeoneer.entities.Prefab,
+			category: "Surprises",
+			name: "Treasure"
+		}
+	],
+	decorations: [
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:56,
+			name:"Skull",
+			yOffset:-0.11
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:74,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:75,
+			name:"Bones",
+			yOffset:-0.15
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Decoration,
+			itemType:junk,
+			tex:56,
+			name:"Skull",
+			yOffset:-0.11
+		}
+	],
+	defaultTextureAtlas: "temple",
+	texturePainters: {
+		"temple": {
+			wall: { "0": [0, 0, 0, 0, 2, 2, 3, 1, 1, 1], "4": [4, 4, 4, 5, 5, 6, 6, 6, 7, 7], "12": [12, 12, 12, 12, 12, 14, 14, 14, 13, 13]},
+			floor: {  "8": [8, 8, 8, 8, 9, 9, 9, 10, 10, 16] },
+			ceiling: { }
+		}
+	},
+	genInfos: [
+	    {
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "fog",
+            floorTex: 8,
+            textureAtlas: "temple",
+            chance: 0.06,
+            clusterCount: 1,
+            clusterSpread: 0.4,
+            performanceControlledClustering: true,
+            spawns: [{
+                "class": "com.interrupt.dungeoneer.entities.FogSprite",
+                "scale": 1.5}
+            ]
+        },
+        {
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "fog",
+            floorTex: 9,
+            textureAtlas: "temple",
+            chance: 0.06,
+            clusterCount: 1,
+            clusterSpread: 0.4,
+            performanceControlledClustering: true,
+            spawns: [{
+                "class": "com.interrupt.dungeoneer.entities.FogSprite",
+                "scale": 1.5}
+            ]
+        },
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks (will spawn on floors with texture 9)",
+			floorTex: 8,
+			textureAtlas: "temple",
+			chance: 0.11,
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "rocks (will spawn on floors with texture 9)",
+			floorTex: 9,
+			textureAtlas: "temple",
+			chance: 0.11,
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 0,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "bones (will spawn on floors with texture 8)",
+			floorTex: 8,
+			textureAtlas: "temple",
+			chance: 0.04,
+			clusterCount: 1,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				spriteAtlas: entities_undead,
+				tex: 15,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.3,
+			floorTex: 8,
+			textureAtlas: "temple",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				isDynamic: false
+			},
+			]
+		},
+		{
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "Decorative koru on temple floor 8",
+            chance: 0.05,
+            floorTex: 8,
+            textureAtlas: "temple",
+            clusterCount: 3,
+            clusterSpread: 0.6,
+            performanceControlledClustering: true,
+            spawns: [{
+                class:com.interrupt.dungeoneer.entities.Foliage,
+                tex: 2,
+                spriteAtlas: "temple_sprite",
+                isDynamic: false
+            }]
+        },
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.3,
+			floorTex: 9,
+			textureAtlas: "temple",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Decorative grass",
+			chance: 0.8,
+			floorTex: 16,
+			textureAtlas: "temple",
+			clusterCount: 8,
+			clusterSpread: 0.6,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				tex: 1,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Hanging roots on Rock",
+			chance: 0.8,
+			ceilTex: 12,
+			textureAtlas: "temple",
+			clusterCount: 2,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 21,
+				isDynamic: false
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 22,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Hanging roots on Temple Ceiling",
+			chance: 0.4,
+			ceilTex: 11,
+			textureAtlas: "temple",
+			clusterCount: 2,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 21,
+				isDynamic: false
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 22,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Hanging moss on Temple Ceiling",
+			chance: 0.3,
+			ceilTex: 11,
+			textureAtlas: "temple",
+			clusterCount: 4,
+			clusterSpread: 0.4,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Sprite,
+				tex: 2,
+				isDynamic: false
+			}]
+		},
+		{
+			class:com.interrupt.dungeoneer.generator.GenInfo,
+			comment: "Spiderweb",
+			chance: 0.4,
+			ceilTex: 11,
+			textureAtlas: "temple",
+			clusterCount: 1,
+			clusterSpread: 0.45,
+			attachCeiling: true,
+			performanceControlledClustering: true,
+			spawns: [{
+				class:com.interrupt.dungeoneer.entities.Foliage,
+				foliagePosition: "CEILING",
+				tex: 23,
+				isDynamic: false
+			}]
+		},
+		{
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "lava motes (will spawn on lava floors)",
+            floorTex: 24,
+            textureAtlas: "t1",
+            chance: 0.06,
+            clusterCount: 4,
+            clusterSpread: 0.4,
+            performanceControlledClustering: true,
+            spawns: [{
+                 class: com.interrupt.dungeoneer.entities.Prefab,
+                 name: "Lava Motes",
+                 category: Particles
+             }]
+        },
+        {
+            class:com.interrupt.dungeoneer.generator.GenInfo,
+            comment: "lava fountains (will spawn on lava floors)",
+            floorTex: 24,
+            textureAtlas: "t1",
+            chance: 0.04,
+            clusterCount: 4,
+            clusterSpread: 0.4,
+            performanceControlledClustering: true,
+            spawns: [{
+                 class: com.interrupt.dungeoneer.entities.Prefab,
+                 name: "Lava Fountain",
+                 category: Particles
+             }]
+        },
+	]
+}
