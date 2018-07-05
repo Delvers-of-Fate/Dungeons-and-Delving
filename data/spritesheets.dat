@@ -38,9 +38,9 @@
         "name": "RTRAP"
     },
 	    {
-        "columns": 6,
+        "columns": 8,
         "filename": "sprites/DMC_Classes.png",
-        "scale": 1,
+        "scale": 0.75,
         "name": "DMC-Classes"
     },
 	    {

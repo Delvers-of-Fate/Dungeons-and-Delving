@@ -229,28 +229,29 @@
       }
     },
 		"Guns": {
-			"Auto Test Gunwand": {
+			"VolleySpell": {
 				class: com.interrupt.dungeoneer.entities.items.Gun
-				roll: 45
-				tex: 32
-				name: "Auto Trest Gunwand"
-				ammoPerShot: 3
+				roll: 20
+				tex: 131
+				name: "VolleySpell"
+				ammoPerShot: 6
 				attackAnimation: wandAttack
 				attackStrongAnimation: wandAttack
 				chargeAnimation: wandCharge
-				projectileNum: 3
-				projectileSpreadX: 15
-				projectileSpreadY: 0
+				projectileNum: 6
+				projectileSpreadX: 5
+				projectileSpreadY: 4
 				automatic: true
 				cycleTime: 100
 				ammoType: "BULLET"
-				fireSound: "explode.mp3,explode_02.mp3,explode_03.mp3,explode_04.mp3"
-				outOfAmmoSound: "button.mp3"
+				fireSound: "bow.mp3,bow_02.mp3,bow_03.mp3,bow_04.mp3"
+				outOfAmmoSound: "ui/ui_noammo_bow.mp3"
 				hitEffect: {
 					class: com.interrupt.dungeoneer.entities.Explosion
 					explosionStartTex: 18
 					explosionEndTex: 23
 					explosionAnimSpeed: 22
+					hidden:true
 					damage: 0
 					lightMod: 0.2
 					particleCount: 0
@@ -291,7 +292,7 @@
 					splashForce: 0,
 					splashRadius: 0,
 					collision: { x: 0.2, y: 0.2, z: 0.2 },
-					color: {a:1.0,b:0.3,g:1.0,r:0.0},
+					color: {a:1.0,b:1.0,g:0.0,r:0.5},
 					spriteAtlas: "particle",
 					explosion: {
 					    explosionStartTex: 36,
@@ -422,10 +423,10 @@
 		"class": "com.interrupt.dungeoneer.entities.ProjectedDecal",
       			 "spriteAtlas": "RTRAP",
                 "tex": 0,
-				"scale": 0.5,
+				"scale": 0.01,
       			"rotation": { "y": -90 },
-      			"decalWidth": 1,
-      			"decalHeight": 1,
+      			"decalWidth": 0.01,
+      			"decalHeight": 0.01,
       			"isDynamic":true,
       			"z": 0.25
 			attached: [
@@ -441,50 +442,6 @@
 	},
 	"Decorations": {
 	"Gold": {class:com.interrupt.dungeoneer.entities.items.Gold, collision: {x: 0.05,y: 0.05,z: 0.05},isSolid: true},
-	},
-	"Scenery": {
-		"ShootStar": {
-		class:com.interrupt.dungeoneer.entities.items.Decoration,
-		itemType:junk,
-		spriteAtlas: sprite
-		tex:8,
-		scale: 0.03,
-		isSolid:false,
-		name:"ShootStar",
-		yOffset:-0.11
-		"attached": [
-		{
-          "class": "com.interrupt.dungeoneer.entities.DynamicLight",
-          "id": "",
-          "range": 1,
-          "lightColor": { "x": 1.0, "y": 1.0, "z": 1.0 },
-          "lightType": "fire",
-          "z": -0.1,
-          "hasHalo": true,
-          "haloSize": 1
-        },
-		{
-            "class": "com.interrupt.dungeoneer.entities.SpriteBeam",
-            "tex": 30,
-			"scale": 0.03,
-            "color": {
-              "r": 1, 
-			  "g": 1,
-              "b": 1 },
-            "beamRenderMode": "LINE"
-        },
-		{
-            "class": "com.interrupt.dungeoneer.entities.SpriteBeam",
-            "tex": 30,
-			"scale": 0.03,
-            "color": {
-              "r": 1, 
-			  "g": 1,
-              "b": 1 },
-            "beamRenderMode": "LINE"
-        }
-		],
-	}
 	},
     "Graves": {
       "GraveExtended:": {
@@ -505,20 +462,6 @@
     }
     },
 	"Other Items": {
-	  	"Unusual Book": {
-			class:com.interrupt.dungeoneer.entities.items.Decoration,
-			itemType:junk,
-			 collision:{
-			 x: 0.1,
-			 y: 0.1,
-			 z: 0.1
-			 },
-			 spriteAtlas: "Specific",
-			 tex:2,
-			 inventoryTex:2,
-			 heldTex:3,
-			 name:"Delver Mythos"
-			},
 		"Mage Tome": {
 			class:com.interrupt.dungeoneer.entities.items.Decoration,
 			itemType:junk,

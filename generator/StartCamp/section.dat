@@ -21,7 +21,7 @@
 			ceilPainter: { "1": [1, 1, 1, 1, 1, 1, 1, 32] },
 			levelFileName:"levels/start.bin",
 			spawnMonsters: false,
-			skybox: { meshFile: "meshes/skyEvening.obj", textureFile: "skyBloodmoon3.png" },
+			skybox: { meshFile: "meshes/skyEvening.obj", textureFile: "skyEvening.png" },
 			actionMusic:"chase_ruins.mp3",
 			ambientSound:"env_outdoor.mp3",
 			ambientSoundVolume:"0.5"

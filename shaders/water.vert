@@ -36,7 +36,7 @@ void main() {
     v_position = a_position;
     vec4 newPosition = a_position;
 
-    v_waveFactor = fluidWave(5.0, 0.055, 1.0, 0.05, vec2(0.5, 0.5));
+    v_waveFactor = fluidWave(10.0, 0.055, 1.0, 0.05, vec2(0.5, 0.5));
     v_waveFactor += fluidWave(5.0, 0.015, 1.0, 0.1, vec2(0.2, -0.8));
 
     newPosition.y += v_waveFactor * 0.1;

@@ -21,7 +21,7 @@
 			{
 			class:com.interrupt.dungeoneer.entities.items.Wand,
 			itemType:wand,
-			name:"CastStaff",
+			name:"Lightning Bell",
 			unique: true,
 			magicStatBoostMod: 6,
 			spell: {
@@ -44,7 +44,22 @@
 			minItemLevel: 2,
             maxItemLevel: 10,
             baseMods: { moveSpeedMod: 1, armorMod: 1, hpMod: 2 }
-		},
+			},
+			{
+			"class": "com.interrupt.dungeoneer.entities.items.Food",
+			"tex": 41,
+			"yOffset": -0.33,
+			"spriteAtlas": "DMC-Classes",
+			"scale": 0.5,
+			"shadowType": "NONE",
+			"itemType": "potion",
+			"cost": 30,
+			"unique": true,
+			"name": "Potion of Urgency",
+			"description": "Umm.. I dont know what this will do to me.. Welp.. Bottoms Up!",
+			"foodMod": 0.5,
+			"infoText": ""
+			},
 			
 		{
                 "class":"com.interrupt.dungeoneer.entities.items.Bow",
@@ -92,7 +107,8 @@
                         color: {r:0.6172,g:0.9937,b:0.7695,a:1.0},
                         dustRingColor: {r:0.6172,g:0.9937,b:0.7695,a:1.0},
                         damage: 2,
-                        damageType: "PARALYZE",
+						scale:0.1,
+                        damageType: "PHYSICAL",
                         explosionStartTex: 18,
               					explosionEndTex: 23,
               					explosionAnimSpeed: 22,
@@ -234,5 +250,125 @@
 			yOffset:-0.04,
 			cost:45
         }
-	]
+	],
+		melee:{
+		"9" : [
+			{
+			class:com.interrupt.dungeoneer.entities.items.Sword,
+			itemType:sword,
+			tex:0,
+			brokenTex:1,
+			spriteAtlas:"DMC-Classes",
+			name:"Apprentice Short Sword",
+			baseDamage:3,
+			randDamage:2,
+			knockback:0.1,
+			scale:0.7,
+			reach:0.45,
+			speed:1.2,
+			chargespeed:1.0,
+			durability: 50,
+			cost:5,
+			yOffset: -0.29,
+			pickupSound:"pu_metal.mp3",
+			attackAnimation:"swordAttack",
+			attackStrongAnimation:"swordAttackStrong",
+			chargeAnimation:"swordCharge",
+			dropSound:"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
+			},
+			{
+			class:com.interrupt.dungeoneer.entities.items.Sword,
+			itemType:sword,
+			tex:16,
+			brokenTex:17,
+			spriteAtlas:"DMC-Classes",
+			name:"Wanderer's Long Sword",
+			baseDamage:4,
+			randDamage:4,
+			knockback:2,
+			reach:0.48,
+			scale:0.7,
+			speed:0.95,
+			chargespeed:1.0,
+			durability: 50,
+			cost:5,
+			yOffset: -0.29,
+			twoHanded:true
+			pickupSound:"pu_metal.mp3",
+			attackAnimation:"swordAttackSlow",
+			attackStrongAnimation:"thrustAttack",
+			chargeAnimation:"thrustCharge",
+			dropSound:"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
+			}
+		]
+	},
+		ranged:{
+		"9" : [
+			{
+			class:com.interrupt.dungeoneer.entities.items.Bow,
+			itemType:bow,
+			tex:6,
+			name:"Hardwood Short Bow",
+			spriteAtlas: "DMC-Classes",
+			baseDamage:2,
+			randDamage:2,
+			knockback:0.1,
+			scale:0.85,
+			range:4,
+			speed: 1.0,
+			cost:20,
+			yOffset: -0.30,
+			twoHanded:true
+			},
+			{
+				class: com.interrupt.dungeoneer.entities.items.Gun
+				roll: 45
+				tex: 32
+				name: Gunwand
+				projectileNum: 5
+				projectileSpreadX: 15
+				projectileSpreadY: 15
+				attackAnimation: wandAttack
+				attackStrongAnimation: wandAttack
+				chargeAnimation: wandCharge
+				automatic: false
+				ammoType: "BULLET"
+			},
+			{
+			class:com.interrupt.dungeoneer.entities.items.Bow,
+			itemType:bow,
+			tex:7,
+			name:"Hardwood Long Bow",
+			spriteAtlas: "DMC-Classes",
+			baseDamage:4,
+			randDamage:2,
+			knockback:0.1,
+			range:4,
+			speed: 0.4,
+			cost:20,
+			yOffset: -0.29,
+			twoHanded:true
+			}
+		]
+	},
+		armor:{
+		"9" : [
+			{
+				class:com.interrupt.dungeoneer.entities.items.Armor,
+				itemType:armor,
+				tex:3,
+				heldTex:2,
+				spriteAtlas:"DMC-Classes",
+				name:"Vigilant Defender",
+				armor:1,
+				scale: 0.7,
+				durability: 50,
+				equipLoc:"OFFHAND",
+				yOffset:-0.20,
+				cost:8,
+				pickupSound:"pu_gen_v2.mp3",
+			baseMods: { armorMod: 1 }
+			},
+		]
+	}
 }

@@ -11,6 +11,12 @@
         "scale": 1,
         "name": "t2"
     },
+	{
+        "columns": 4,
+        "filename": "textures/Tex-DND.png",
+        "scale": 1,
+        "name": "TexDND"
+    },
     {
         "columns": 4,
         "filename": "textures/Room/textures.png",

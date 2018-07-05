@@ -19731,6 +19731,7 @@
 			meshFile: meshes/Cold/wood_barrier_0.obj,
 			textureFile: textures/Cold/meshes.png,
 			lootSpawnChance: 0,
+			surpriseSpawnChance: 0.2,
 			triggerWhenBreaks: SPIDER_SPAWN_DELAY
 		},
 		{
@@ -19743,6 +19744,7 @@
 			},
 			x: 37.5,
 			y: 36.5,
+			floating: false,
 			itemName: Irondagger
 		},
 		{
@@ -19920,6 +19922,30 @@
 			x: 33.497406,
 			y: 39.895695,
 			z: 1.7465905,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 33.497406,
+						y: 39.895695,
+						z: 1.7465905,
+						isStaticMesh: true
+					},
+					x: 33.497406,
+					y: 39.895695,
+					z: 1.7465905,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 33.497406,
 				y: 39.895695,
@@ -19934,6 +19960,30 @@
 			x: 44.82117,
 			y: 33.910873,
 			z: 2.5148191,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 44.82117,
+						y: 33.910873,
+						z: 2.5148191,
+						isStaticMesh: true
+					},
+					x: 44.82117,
+					y: 33.910873,
+					z: 2.5148191,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 44.82117,
 				y: 33.910873,
@@ -19948,6 +19998,30 @@
 			x: 42.849064,
 			y: 36.724457,
 			z: 3.2702625,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 42.849064,
+						y: 36.724457,
+						z: 3.2702625,
+						isStaticMesh: true
+					},
+					x: 42.849064,
+					y: 36.724457,
+					z: 3.2702625,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 42.849064,
 				y: 36.724457,
@@ -19962,6 +20036,30 @@
 			x: 45.359886,
 			y: 37.744648,
 			z: 4.855073,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 45.359886,
+						y: 37.744648,
+						z: 4.855073,
+						isStaticMesh: true
+					},
+					x: 45.359886,
+					y: 37.744648,
+					z: 4.855073,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 45.359886,
 				y: 37.744648,
@@ -19976,6 +20074,30 @@
 			x: 43.903076,
 			y: 41.674534,
 			z: 2.945819,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/tree.obj,
+						x: 43.903076,
+						y: 41.674534,
+						z: 2.945819,
+						isStaticMesh: true
+					},
+					x: 43.903076,
+					y: 41.674534,
+					z: 2.945819,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/tree.obj
+				}
+			],
 			lastPosition: {
 				x: 43.903076,
 				y: 41.674534,
@@ -19990,6 +20112,30 @@
 			x: 43.82117,
 			y: 45.910873,
 			z: 3.8398492,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 43.82117,
+						y: 45.910873,
+						z: 3.8398492,
+						isStaticMesh: true
+					},
+					x: 43.82117,
+					y: 45.910873,
+					z: 3.8398492,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 43.82117,
 				y: 45.910873,
@@ -20004,6 +20150,30 @@
 			x: 42.902863,
 			y: 32.166958,
 			z: 1.8518322,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 42.902863,
+						y: 32.166958,
+						z: 1.8518322,
+						isStaticMesh: true
+					},
+					x: 42.902863,
+					y: 32.166958,
+					z: 1.8518322,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 42.902863,
 				y: 32.166958,
@@ -20018,6 +20188,30 @@
 			x: 29.751091,
 			y: 40.565548,
 			z: 7.5625,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 29.751091,
+						y: 40.565548,
+						z: 7.5625,
+						isStaticMesh: true
+					},
+					x: 29.751091,
+					y: 40.565548,
+					z: 7.5625,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 29.751091,
 				y: 40.565548,
@@ -20032,6 +20226,30 @@
 			x: 45.97993,
 			y: 42.04854,
 			z: 4.2859974,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 45.97993,
+						y: 42.04854,
+						z: 4.2859974,
+						isStaticMesh: true
+					},
+					x: 45.97993,
+					y: 42.04854,
+					z: 4.2859974,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 45.97993,
 				y: 42.04854,
@@ -20046,6 +20264,30 @@
 			x: 47.82117,
 			y: 44.910873,
 			z: 7.1304717,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 47.82117,
+						y: 44.910873,
+						z: 7.1304717,
+						isStaticMesh: true
+					},
+					x: 47.82117,
+					y: 44.910873,
+					z: 7.1304717,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 47.82117,
 				y: 44.910873,
@@ -20060,6 +20302,30 @@
 			x: 31.094534,
 			y: 39.084972,
 			z: 7.196244,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 31.094534,
+						y: 39.084972,
+						z: 7.196244,
+						isStaticMesh: true
+					},
+					x: 31.094534,
+					y: 39.084972,
+					z: 7.196244,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 31.094534,
 				y: 39.084972,
@@ -20074,6 +20340,30 @@
 			x: 30.468504,
 			y: 36.84345,
 			z: 7.5147862,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 30.468504,
+						y: 36.84345,
+						z: 7.5147862,
+						isStaticMesh: true
+					},
+					x: 30.468504,
+					y: 36.84345,
+					z: 7.5147862,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 30.468504,
 				y: 36.84345,
@@ -20088,6 +20378,30 @@
 			x: 33.62426,
 			y: 36.843433,
 			z: 3.8008943,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 33.62426,
+						y: 36.843433,
+						z: 3.8008943,
+						isStaticMesh: true
+					},
+					x: 33.62426,
+					y: 36.843433,
+					z: 3.8008943,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 33.62426,
 				y: 36.843433,
@@ -20101,6 +20415,28 @@
 			class: com.interrupt.dungeoneer.entities.Prefab,
 			x: 40.82117,
 			y: 39.910873,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 40.82117,
+						y: 39.910873,
+						isStaticMesh: true
+					},
+					x: 40.82117,
+					y: 39.910873,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 40.82117,
 				y: 39.910873
@@ -21682,6 +22018,30 @@
 			x: 37.584274,
 			y: 27.92595,
 			z: 3.125,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 37.584274,
+						y: 27.92595,
+						z: 3.125,
+						isStaticMesh: true
+					},
+					x: 37.584274,
+					y: 27.92595,
+					z: 3.125,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 37.584274,
 				y: 27.92595,
@@ -21696,6 +22056,30 @@
 			x: 41.590874,
 			y: 28.080936,
 			z: 3.125,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 41.590874,
+						y: 28.080936,
+						z: 3.125,
+						isStaticMesh: true
+					},
+					x: 41.590874,
+					y: 28.080936,
+					z: 3.125,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 41.590874,
 				y: 28.080936,
@@ -21710,6 +22094,30 @@
 			x: 45.79532,
 			y: 29.387108,
 			z: 3.703776,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/tree.obj,
+						x: 45.79532,
+						y: 29.387108,
+						z: 3.703776,
+						isStaticMesh: true
+					},
+					x: 45.79532,
+					y: 29.387108,
+					z: 3.703776,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/tree.obj
+				}
+			],
 			lastPosition: {
 				x: 45.79532,
 				y: 29.387108,
@@ -21724,6 +22132,30 @@
 			x: 47.841522,
 			y: 32.474464,
 			z: 5.275332,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 47.841522,
+						y: 32.474464,
+						z: 5.275332,
+						isStaticMesh: true
+					},
+					x: 47.841522,
+					y: 32.474464,
+					z: 5.275332,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 47.841522,
 				y: 32.474464,
@@ -21738,6 +22170,30 @@
 			x: 40.508045,
 			y: 32.44751,
 			z: -0.035715878,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 40.508045,
+						y: 32.44751,
+						z: -0.035715878,
+						isStaticMesh: true
+					},
+					x: 40.508045,
+					y: 32.44751,
+					z: -0.035715878,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 40.508045,
 				y: 32.44751,
@@ -21752,6 +22208,30 @@
 			x: 33.82233,
 			y: 28.729036,
 			z: 1.681177,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 33.82233,
+						y: 28.729036,
+						z: 1.681177,
+						isStaticMesh: true
+					},
+					x: 33.82233,
+					y: 28.729036,
+					z: 1.681177,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 33.82233,
 				y: 28.729036,
@@ -21766,6 +22246,30 @@
 			x: 29.902863,
 			y: 29.166958,
 			z: -0.25831187,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 29.902863,
+						y: 29.166958,
+						z: -0.25831187,
+						isStaticMesh: true
+					},
+					x: 29.902863,
+					y: 29.166958,
+					z: -0.25831187,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 29.902863,
 				y: 29.166958,
@@ -21791,9 +22295,10 @@
 				y: 20,
 				z: 30
 			},
+			skyboxTexture: skyEvening.png,
 			skybox: {
-				meshFile: meshes/sky.obj,
-				textureFile: sky.png
+				meshFile: meshes/skyEvening.obj,
+				textureFile: skyEvening.png
 			}
 		},
 		{
@@ -22599,6 +23104,7 @@
 			},
 			x: 45.45292,
 			y: 20.820225,
+			floating: false,
 			itemType: wands,
 			itemName: IceWand
 		},
@@ -23506,6 +24012,7 @@
 			},
 			x: 44.5,
 			y: 18.5,
+			floating: false,
 			itemType: food,
 			itemName: Bread
 		},
@@ -23749,6 +24256,7 @@
 			},
 			x: 41.474167,
 			y: 20.180382,
+			floating: false,
 			rotation: {
 				z: -90
 			},
@@ -24211,6 +24719,36 @@
 			rotation: {
 				z: -720
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Temple/small_head_1.obj,
+						textureFile: textures/Temple/temple_meshes.png,
+						x: 37.5,
+						y: 5.5,
+						z: -1,
+						rotZ: -720,
+						isStaticMesh: true
+					},
+					x: 37.5,
+					y: 5.5,
+					z: -1,
+					isSolid: true,
+					collision: {
+						x: 0.3125,
+						y: 0.3125,
+						z: 0.5625
+					},
+					isDynamic: false,
+					rotation: {
+						z: -720
+					},
+					meshFile: "meshes/Temple/small_head_0.obj,meshes/Temple/small_head_1.obj",
+					textureFile: textures/Temple/temple_meshes.png
+				}
+			],
 			lastRot: {
 				z: -720
 			},
@@ -24231,6 +24769,36 @@
 			rotation: {
 				z: -720
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Temple/small_head_1.obj,
+						textureFile: textures/Temple/temple_meshes.png,
+						x: 39.5,
+						y: 5.5,
+						z: -1,
+						rotZ: -720,
+						isStaticMesh: true
+					},
+					x: 39.5,
+					y: 5.5,
+					z: -1,
+					isSolid: true,
+					collision: {
+						x: 0.3125,
+						y: 0.3125,
+						z: 0.5625
+					},
+					isDynamic: false,
+					rotation: {
+						z: -720
+					},
+					meshFile: "meshes/Temple/small_head_0.obj,meshes/Temple/small_head_1.obj",
+					textureFile: textures/Temple/temple_meshes.png
+				}
+			],
 			lastRot: {
 				z: -720
 			},
@@ -24426,6 +24994,30 @@
 			x: 44.425198,
 			y: 30.159143,
 			z: 0.4375,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.triggers.Trigger,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+						tex: 11,
+						spriteTex: editor
+					},
+					x: 44.425198,
+					y: 30.159143,
+					z: 0.4375,
+					collision: {
+						x: 0.65,
+						y: 0.65,
+						z: 1
+					},
+					isSecret: true,
+					triggerType: PLAYER_TOUCHED,
+					triggerResets: false,
+					message: Asecrethasbeenrevealed!,
+					messageTime: 2,
+					triggerSound: ui/ui_secret_found.mp3
+				}
+			],
 			lastPosition: {
 				x: 44.425198,
 				y: 30.159143,
@@ -24908,6 +25500,32 @@
 			x: 46.375,
 			y: 11.875,
 			z: -1,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+						textureFile: textures/Dungeon/meshes.png,
+						x: 46.375,
+						y: 11.875,
+						z: -1,
+						isStaticMesh: true
+					},
+					x: 46.375,
+					y: 11.875,
+					z: -1,
+					isSolid: true,
+					collision: {
+						x: 0.125,
+						y: 0.125,
+						z: 1
+					},
+					isDynamic: false,
+					meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+					textureFile: textures/Dungeon/meshes.png
+				}
+			],
 			lastPosition: {
 				x: 46.375,
 				y: 11.875,
@@ -24921,6 +25539,30 @@
 			class: com.interrupt.dungeoneer.entities.Prefab,
 			x: 46.375,
 			y: 11.875,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+						textureFile: textures/Dungeon/meshes.png,
+						x: 46.375,
+						y: 11.875,
+						isStaticMesh: true
+					},
+					x: 46.375,
+					y: 11.875,
+					isSolid: true,
+					collision: {
+						x: 0.125,
+						y: 0.125,
+						z: 1
+					},
+					isDynamic: false,
+					meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+					textureFile: textures/Dungeon/meshes.png
+				}
+			],
 			lastPosition: {
 				x: 46.375,
 				y: 11.875
@@ -24934,6 +25576,32 @@
 			x: 49,
 			y: 10.125,
 			z: -1,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+						textureFile: textures/Dungeon/meshes.png,
+						x: 49,
+						y: 10.125,
+						z: -1,
+						isStaticMesh: true
+					},
+					x: 49,
+					y: 10.125,
+					z: -1,
+					isSolid: true,
+					collision: {
+						x: 0.125,
+						y: 0.125,
+						z: 1
+					},
+					isDynamic: false,
+					meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+					textureFile: textures/Dungeon/meshes.png
+				}
+			],
 			lastPosition: {
 				x: 49,
 				y: 10.125,
@@ -24947,6 +25615,30 @@
 			class: com.interrupt.dungeoneer.entities.Prefab,
 			x: 49,
 			y: 10.125,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+						textureFile: textures/Dungeon/meshes.png,
+						x: 49,
+						y: 10.125,
+						isStaticMesh: true
+					},
+					x: 49,
+					y: 10.125,
+					isSolid: true,
+					collision: {
+						x: 0.125,
+						y: 0.125,
+						z: 1
+					},
+					isDynamic: false,
+					meshFile: meshes/Dungeon/wood_beam_small_vertical_0.obj,
+					textureFile: textures/Dungeon/meshes.png
+				}
+			],
 			lastPosition: {
 				x: 49,
 				y: 10.125
@@ -24959,6 +25651,30 @@
 			class: com.interrupt.dungeoneer.entities.Prefab,
 			x: 39.25,
 			y: 14.125,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Dungeon/wood_beam_vertical_0.obj,
+						textureFile: textures/Dungeon/meshes.png,
+						x: 39.25,
+						y: 14.125,
+						isStaticMesh: true
+					},
+					x: 39.25,
+					y: 14.125,
+					isSolid: true,
+					collision: {
+						x: 0.25,
+						y: 0.25,
+						z: 1
+					},
+					isDynamic: false,
+					meshFile: meshes/Dungeon/wood_beam_vertical_0.obj,
+					textureFile: textures/Dungeon/meshes.png
+				}
+			],
 			lastPosition: {
 				x: 39.25,
 				y: 14.125
@@ -24972,6 +25688,32 @@
 			x: 39.25,
 			y: 14.125,
 			z: 1,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Dungeon/wood_beam_vertical_0.obj,
+						textureFile: textures/Dungeon/meshes.png,
+						x: 39.25,
+						y: 14.125,
+						z: 1,
+						isStaticMesh: true
+					},
+					x: 39.25,
+					y: 14.125,
+					z: 1,
+					isSolid: true,
+					collision: {
+						x: 0.25,
+						y: 0.25,
+						z: 1
+					},
+					isDynamic: false,
+					meshFile: meshes/Dungeon/wood_beam_vertical_0.obj,
+					textureFile: textures/Dungeon/meshes.png
+				}
+			],
 			lastPosition: {
 				x: 39.25,
 				y: 14.125,
@@ -25082,6 +25824,30 @@
 			x: 51.5,
 			y: 18.5,
 			z: -1.9375,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.triggers.Trigger,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+						tex: 11,
+						spriteTex: editor
+					},
+					x: 51.5,
+					y: 18.5,
+					z: -1.9375,
+					collision: {
+						x: 0.65,
+						y: 0.65,
+						z: 1
+					},
+					isSecret: true,
+					triggerType: PLAYER_TOUCHED,
+					triggerResets: false,
+					message: Asecrethasbeenrevealed!,
+					messageTime: 2,
+					triggerSound: ui/ui_secret_found.mp3
+				}
+			],
 			lastPosition: {
 				x: 51.5,
 				y: 18.5,
@@ -25101,6 +25867,7 @@
 			},
 			x: 40.696682,
 			y: 19.182755,
+			floating: false,
 			rotation: {
 				z: -180
 			},
@@ -25175,6 +25942,36 @@
 			rotation: {
 				z: -450
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Temple/small_head_0.obj,
+						textureFile: textures/Temple/temple_meshes.png,
+						x: 39.625,
+						y: 8.5,
+						z: -0.375,
+						rotZ: -450,
+						isStaticMesh: true
+					},
+					x: 39.625,
+					y: 8.5,
+					z: -0.375,
+					isSolid: true,
+					collision: {
+						x: 0.3125,
+						y: 0.3125,
+						z: 0.5625
+					},
+					isDynamic: false,
+					rotation: {
+						z: -450
+					},
+					meshFile: "meshes/Temple/small_head_0.obj,meshes/Temple/small_head_1.obj",
+					textureFile: textures/Temple/temple_meshes.png
+				}
+			],
 			lastRot: {
 				z: -450
 			},
@@ -25195,6 +25992,36 @@
 			rotation: {
 				z: -270
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Temple/small_head_0.obj,
+						textureFile: textures/Temple/temple_meshes.png,
+						x: 37.375,
+						y: 8.5,
+						z: -0.375,
+						rotZ: -270,
+						isStaticMesh: true
+					},
+					x: 37.375,
+					y: 8.5,
+					z: -0.375,
+					isSolid: true,
+					collision: {
+						x: 0.3125,
+						y: 0.3125,
+						z: 0.5625
+					},
+					isDynamic: false,
+					rotation: {
+						z: -270
+					},
+					meshFile: "meshes/Temple/small_head_0.obj,meshes/Temple/small_head_1.obj",
+					textureFile: textures/Temple/temple_meshes.png
+				}
+			],
 			lastRot: {
 				z: -270
 			},
@@ -25211,6 +26038,30 @@
 			class: com.interrupt.dungeoneer.entities.Prefab,
 			x: 40.86568,
 			y: 36.096966,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/Dungeon/dirtpile_0.obj,
+						textureFile: textures/Dungeon/meshes.png,
+						x: 40.86568,
+						y: 36.096966,
+						isStaticMesh: true
+					},
+					x: 40.86568,
+					y: 36.096966,
+					isSolid: true,
+					collision: {
+						x: 0.35,
+						y: 0.35,
+						z: 0.175
+					},
+					isDynamic: false,
+					meshFile: meshes/Dungeon/dirtpile_0.obj,
+					textureFile: textures/Dungeon/meshes.png
+				}
+			],
 			lastPosition: {
 				x: 40.86568,
 				y: 36.096966
@@ -27195,6 +28046,245 @@
 			x: 37.5,
 			y: 4.5,
 			z: -4.625,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Group,
+					x: 37.5,
+					y: 4.5,
+					z: -4.625,
+					entities: [
+						{
+							class: com.interrupt.dungeoneer.entities.Model,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+								meshFile: meshes/brazier.obj,
+								textureFile: textures/Temple/temple_meshes.png,
+								x: 37.5,
+								y: 4.5,
+								z: -4.625,
+								isStaticMesh: true
+							},
+							x: 37.5,
+							y: 4.5,
+							z: -4.625,
+							isSolid: true,
+							collision: {
+								x: 0.375,
+								y: 0.375,
+								z: 0.5625
+							},
+							isDynamic: false,
+							meshFile: meshes/brazier.obj,
+							textureFile: textures/Temple/temple_meshes.png
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Prefab,
+							x: 37.5,
+							y: 4.5,
+							z: -4.1875,
+							entities: [
+								{
+									class: com.interrupt.dungeoneer.entities.Group,
+									x: 37.5,
+									y: 4.5,
+									z: -4.1875,
+									entities: [
+										{
+											class: com.interrupt.dungeoneer.entities.Prefab,
+											x: 37.5,
+											y: 4.5,
+											z: -4.1875,
+											entities: [
+												{
+													class: com.interrupt.dungeoneer.entities.Group,
+													x: 37.5,
+													y: 4.5,
+													z: -4.1875,
+													entities: [
+														{
+															class: com.interrupt.dungeoneer.entities.ParticleEmitter,
+															drawable: {
+																class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+																shader: fire,
+																tex: 14,
+																spriteTex: editor
+															},
+															x: 37.5,
+															y: 4.5,
+															z: -4.5375,
+															shader: fire,
+															particleEndTex: 3,
+															particleAtlas: vfx,
+															particleLifetime: 40,
+															particlesCollide: false,
+															particleSpread: {
+																x: 0.0625,
+																y: 0.0625,
+																z: 0.0625
+															},
+															particleCollisionSize: {
+																
+															},
+															particleVelocity: {
+																z: 0.015
+															},
+															particleMaxVelocity: 0.015,
+															particleDampenAmount: 1.015,
+															particleRandomVelocity: {
+																
+															},
+															particleRandomSpawnCount: 2,
+															particlesFloat: true,
+															turbulenceAmount: 0.1,
+															turbulenceMoveModifier: 0.01,
+															particleStartScale: 0.75,
+															particleEndScale: 0.75,
+															particlesFullbrite: true,
+															particleSpawnCount: 1,
+															particleSpawnInterval: 8,
+															particleRandomSpawnInterval: -2,
+															particleRandomLifetime: 75,
+															particlesMoveRelativeToParent: false,
+															particleColor: {
+																r: 0.6862745,
+																g: 0.20392157,
+																a: 0.03137255
+															},
+															particleEndColor: {
+																r: 1,
+																g: 0.09803922,
+																b: 0.043137256,
+																a: 1
+															},
+															pickRandomSprite: true
+														},
+														{
+															class: com.interrupt.dungeoneer.entities.ParticleEmitter,
+															drawable: {
+																class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+																shader: fire,
+																tex: 14,
+																spriteTex: editor
+															},
+															x: 37.5,
+															y: 4.5,
+															z: -4.4875,
+															shader: fire,
+															particleEndTex: 3,
+															particleAtlas: vfx,
+															particleLifetime: 25,
+															particlesCollide: false,
+															particleSpread: {
+																x: 0.08,
+																y: 0.08
+															},
+															particleCollisionSize: {
+																
+															},
+															particleVelocity: {
+																z: 0.012
+															},
+															particleMaxVelocity: 0.015,
+															particleDampenAmount: 1.015,
+															particleRandomVelocity: {
+																
+															},
+															particleRandomSpawnCount: 1,
+															particlesFloat: true,
+															particlesFullbrite: true,
+															particleSpawnCount: 1,
+															particleSpawnInterval: 4,
+															particleRandomLifetime: 10,
+															particlesMoveRelativeToParent: false,
+															particleColor: {
+																r: 1,
+																g: 0.9019608,
+																b: 0.007843138,
+																a: 0.3764706
+															},
+															particleEndColor: {
+																r: 1,
+																g: 0.09803922,
+																b: 0.043137256,
+																a: 1
+															},
+															pickRandomSprite: true
+														}
+													],
+													lastPosition: {
+														x: 37.5,
+														y: 4.5,
+														z: -4.1875
+													}
+												}
+											],
+											lastPosition: {
+												x: 37.5,
+												y: 4.5,
+												z: -4.1875
+											},
+											category: Generator,
+											name: FireEffect,
+											lastName: FireEffect
+										},
+										{
+											class: com.interrupt.dungeoneer.entities.Light,
+											drawable: {
+												class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+												tex: 12,
+												isStatic: true,
+												spriteTex: editor
+											},
+											x: 37.5,
+											y: 4.5,
+											z: -4.0875,
+											isDynamic: false,
+											lightColor: {
+												r: 1,
+												g: 0.7058824,
+												b: 0.20784314,
+												a: 1
+											},
+											range: 2,
+											haloSize: 1,
+											haloMode: BOTH
+										},
+										{
+											class: com.interrupt.dungeoneer.entities.AmbientSound,
+											id: "",
+											x: 37.5,
+											y: 4.5,
+											z: -4.1875,
+											tex: 0,
+											spriteAtlas: null,
+											dropSound: drops/drop_soft.ogg,
+											volume: 0.6
+										}
+									],
+									lastPosition: {
+										x: 37.5,
+										y: 4.5,
+										z: -4.1875
+									}
+								}
+							],
+							lastPosition: {
+								x: 37.5,
+								y: 4.5,
+								z: -4.1875
+							},
+							category: Generator,
+							name: TempleFire,
+							lastName: TempleFire
+						}
+					],
+					lastPosition: {
+						x: 37.5,
+						y: 4.5,
+						z: -4.625
+					}
+				}
+			],
 			lastPosition: {
 				x: 37.5,
 				y: 4.5,
@@ -27209,6 +28299,245 @@
 			x: 39.5,
 			y: 4.5,
 			z: -4.625,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Group,
+					x: 39.5,
+					y: 4.5,
+					z: -4.625,
+					entities: [
+						{
+							class: com.interrupt.dungeoneer.entities.Model,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+								meshFile: meshes/brazier.obj,
+								textureFile: textures/Temple/temple_meshes.png,
+								x: 39.5,
+								y: 4.5,
+								z: -4.625,
+								isStaticMesh: true
+							},
+							x: 39.5,
+							y: 4.5,
+							z: -4.625,
+							isSolid: true,
+							collision: {
+								x: 0.375,
+								y: 0.375,
+								z: 0.5625
+							},
+							isDynamic: false,
+							meshFile: meshes/brazier.obj,
+							textureFile: textures/Temple/temple_meshes.png
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Prefab,
+							x: 39.5,
+							y: 4.5,
+							z: -4.1875,
+							entities: [
+								{
+									class: com.interrupt.dungeoneer.entities.Group,
+									x: 39.5,
+									y: 4.5,
+									z: -4.1875,
+									entities: [
+										{
+											class: com.interrupt.dungeoneer.entities.Prefab,
+											x: 39.5,
+											y: 4.5,
+											z: -4.1875,
+											entities: [
+												{
+													class: com.interrupt.dungeoneer.entities.Group,
+													x: 39.5,
+													y: 4.5,
+													z: -4.1875,
+													entities: [
+														{
+															class: com.interrupt.dungeoneer.entities.ParticleEmitter,
+															drawable: {
+																class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+																shader: fire,
+																tex: 14,
+																spriteTex: editor
+															},
+															x: 39.5,
+															y: 4.5,
+															z: -4.5375,
+															shader: fire,
+															particleEndTex: 3,
+															particleAtlas: vfx,
+															particleLifetime: 40,
+															particlesCollide: false,
+															particleSpread: {
+																x: 0.0625,
+																y: 0.0625,
+																z: 0.0625
+															},
+															particleCollisionSize: {
+																
+															},
+															particleVelocity: {
+																z: 0.015
+															},
+															particleMaxVelocity: 0.015,
+															particleDampenAmount: 1.015,
+															particleRandomVelocity: {
+																
+															},
+															particleRandomSpawnCount: 2,
+															particlesFloat: true,
+															turbulenceAmount: 0.1,
+															turbulenceMoveModifier: 0.01,
+															particleStartScale: 0.75,
+															particleEndScale: 0.75,
+															particlesFullbrite: true,
+															particleSpawnCount: 1,
+															particleSpawnInterval: 8,
+															particleRandomSpawnInterval: -2,
+															particleRandomLifetime: 75,
+															particlesMoveRelativeToParent: false,
+															particleColor: {
+																r: 0.6862745,
+																g: 0.20392157,
+																a: 0.03137255
+															},
+															particleEndColor: {
+																r: 1,
+																g: 0.09803922,
+																b: 0.043137256,
+																a: 1
+															},
+															pickRandomSprite: true
+														},
+														{
+															class: com.interrupt.dungeoneer.entities.ParticleEmitter,
+															drawable: {
+																class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+																shader: fire,
+																tex: 14,
+																spriteTex: editor
+															},
+															x: 39.5,
+															y: 4.5,
+															z: -4.4875,
+															shader: fire,
+															particleEndTex: 3,
+															particleAtlas: vfx,
+															particleLifetime: 25,
+															particlesCollide: false,
+															particleSpread: {
+																x: 0.08,
+																y: 0.08
+															},
+															particleCollisionSize: {
+																
+															},
+															particleVelocity: {
+																z: 0.012
+															},
+															particleMaxVelocity: 0.015,
+															particleDampenAmount: 1.015,
+															particleRandomVelocity: {
+																
+															},
+															particleRandomSpawnCount: 1,
+															particlesFloat: true,
+															particlesFullbrite: true,
+															particleSpawnCount: 1,
+															particleSpawnInterval: 4,
+															particleRandomLifetime: 10,
+															particlesMoveRelativeToParent: false,
+															particleColor: {
+																r: 1,
+																g: 0.9019608,
+																b: 0.007843138,
+																a: 0.3764706
+															},
+															particleEndColor: {
+																r: 1,
+																g: 0.09803922,
+																b: 0.043137256,
+																a: 1
+															},
+															pickRandomSprite: true
+														}
+													],
+													lastPosition: {
+														x: 39.5,
+														y: 4.5,
+														z: -4.1875
+													}
+												}
+											],
+											lastPosition: {
+												x: 39.5,
+												y: 4.5,
+												z: -4.1875
+											},
+											category: Generator,
+											name: FireEffect,
+											lastName: FireEffect
+										},
+										{
+											class: com.interrupt.dungeoneer.entities.Light,
+											drawable: {
+												class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+												tex: 12,
+												isStatic: true,
+												spriteTex: editor
+											},
+											x: 39.5,
+											y: 4.5,
+											z: -4.0875,
+											isDynamic: false,
+											lightColor: {
+												r: 1,
+												g: 0.7058824,
+												b: 0.20784314,
+												a: 1
+											},
+											range: 2,
+											haloSize: 1,
+											haloMode: BOTH
+										},
+										{
+											class: com.interrupt.dungeoneer.entities.AmbientSound,
+											id: "",
+											x: 39.5,
+											y: 4.5,
+											z: -4.1875,
+											tex: 0,
+											spriteAtlas: null,
+											dropSound: drops/drop_soft.ogg,
+											volume: 0.6
+										}
+									],
+									lastPosition: {
+										x: 39.5,
+										y: 4.5,
+										z: -4.1875
+									}
+								}
+							],
+							lastPosition: {
+								x: 39.5,
+								y: 4.5,
+								z: -4.1875
+							},
+							category: Generator,
+							name: TempleFire,
+							lastName: TempleFire
+						}
+					],
+					lastPosition: {
+						x: 39.5,
+						y: 4.5,
+						z: -4.625
+					}
+				}
+			],
 			lastPosition: {
 				x: 39.5,
 				y: 4.5,
@@ -27534,6 +28863,63 @@
 			x: 39.5,
 			y: 11.25,
 			z: -1,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Group,
+					x: 39.5,
+					y: 11.25,
+					z: -1,
+					entities: [
+						{
+							class: com.interrupt.dungeoneer.entities.Model,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+								meshFile: meshes/Sewer/crumbling_wall_1.obj,
+								textureFile: textures/Temple/temple_meshes.png,
+								x: 39.5,
+								y: 11.612198,
+								z: -1,
+								isStaticMesh: true
+							},
+							x: 39.5,
+							y: 11.612198,
+							z: -1,
+							collision: {
+								x: 0.1875,
+								y: 0.475,
+								z: 2
+							},
+							isDynamic: false,
+							meshFile: "meshes/Sewer/crumbling_wall_0.obj,meshes/Sewer/crumbling_wall_1.obj",
+							textureFile: textures/Temple/temple_meshes.png
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.areas.Area,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								tex: 19,
+								isStatic: true,
+								spriteTex: editor
+							},
+							x: 39.5,
+							y: 11.25,
+							z: -1,
+							tex: 19,
+							isSolid: true,
+							collision: {
+								x: 0.1875,
+								y: 0.25,
+								z: 2
+							}
+						}
+					],
+					lastPosition: {
+						x: 39.5,
+						y: 11.25,
+						z: -1
+					}
+				}
+			],
 			lastPosition: {
 				x: 39.5,
 				y: 11.25,
@@ -27685,7 +29071,7 @@
 							class: com.interrupt.dungeoneer.entities.Model,
 							drawable: {
 								class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
-								meshFile: meshes/Sewer/crumbling_wall_0.obj,
+								meshFile: meshes/Sewer/crumbling_wall_1.obj,
 								textureFile: textures/Temple/temple_meshes.png,
 								x: 36,
 								y: 8.137802,
@@ -27831,7 +29217,7 @@
 							class: com.interrupt.dungeoneer.entities.Model,
 							drawable: {
 								class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
-								meshFile: meshes/Sewer/crumbling_wall_1.obj,
+								meshFile: meshes/Sewer/crumbling_wall_0.obj,
 								textureFile: textures/Temple/temple_meshes.png,
 								x: 40.137802,
 								y: 9,
@@ -31227,6 +32613,34 @@
 			x: 29.089937,
 			y: 24.493229,
 			z: -0.4810021,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.ParticleEmitter,
+					id: "",
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+						tex: 14,
+						spriteTex: editor
+					},
+					x: 29.089937,
+					y: 24.493229,
+					z: -0.4810021,
+					particleStartTex: 49,
+					particleEndTex: 51,
+					particlesCollide: false,
+					particleSpread: {
+						x: 0.2,
+						y: 0.9
+					},
+					particleRandomVelocity: {
+						
+					},
+					particlesFloat: true,
+					particleEndScale: 0.1,
+					particleSpawnInterval: 6,
+					spawnDistance: 20
+				}
+			],
 			lastPosition: {
 				x: 29.089937,
 				y: 24.493229,
@@ -31244,6 +32658,36 @@
 			rotation: {
 				z: -270
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 29.16498,
+						y: 26.028082,
+						z: -0.59527963,
+						rotZ: -270,
+						isStaticMesh: true
+					},
+					x: 29.16498,
+					y: 26.028082,
+					z: -0.59527963,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -270
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -270
 			},
@@ -31264,6 +32708,36 @@
 			rotation: {
 				z: -270
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 29.15925,
+						y: 23.431187,
+						z: -0.8856468,
+						rotZ: -270,
+						isStaticMesh: true
+					},
+					x: 29.15925,
+					y: 23.431187,
+					z: -0.8856468,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -270
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -270
 			},
@@ -31284,6 +32758,36 @@
 			rotation: {
 				z: -315
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 28.270481,
+						y: 27.221523,
+						z: -0.8980056,
+						rotZ: -315,
+						isStaticMesh: true
+					},
+					x: 28.270481,
+					y: 27.221523,
+					z: -0.8980056,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -315
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -315
 			},
@@ -31448,6 +32952,30 @@
 			x: 25.902863,
 			y: 27.166958,
 			z: 8.867739,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 25.902863,
+						y: 27.166958,
+						z: 8.867739,
+						isStaticMesh: true
+					},
+					x: 25.902863,
+					y: 27.166958,
+					z: 8.867739,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 25.902863,
 				y: 27.166958,
@@ -31462,6 +32990,30 @@
 			x: 24.945581,
 			y: 31.930304,
 			z: 5.2143,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 24.945581,
+						y: 31.930304,
+						z: 5.2143,
+						isStaticMesh: true
+					},
+					x: 24.945581,
+					y: 31.930304,
+					z: 5.2143,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 24.945581,
 				y: 31.930304,
@@ -31476,6 +33028,30 @@
 			x: 27.144358,
 			y: 20.986395,
 			z: 8.867739,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 27.144358,
+						y: 20.986395,
+						z: 8.867739,
+						isStaticMesh: true
+					},
+					x: 27.144358,
+					y: 20.986395,
+					z: 8.867739,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 27.144358,
 				y: 20.986395,
@@ -31490,6 +33066,30 @@
 			x: 29.607704,
 			y: 16.465519,
 			z: 6.140535,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 29.607704,
+						y: 16.465519,
+						z: 6.140535,
+						isStaticMesh: true
+					},
+					x: 29.607704,
+					y: 16.465519,
+					z: 6.140535,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 29.607704,
 				y: 16.465519,
@@ -31504,6 +33104,30 @@
 			x: 36.583946,
 			y: 17.146711,
 			z: 8.16501,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 36.583946,
+						y: 17.146711,
+						z: 8.16501,
+						isStaticMesh: true
+					},
+					x: 36.583946,
+					y: 17.146711,
+					z: 8.16501,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 36.583946,
 				y: 17.146711,
@@ -31668,6 +33292,36 @@
 			rotation: {
 				z: -270
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 28.223097,
+						y: 31.174763,
+						z: 0.18517846,
+						rotZ: -270,
+						isStaticMesh: true
+					},
+					x: 28.223097,
+					y: 31.174763,
+					z: 0.18517846,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -270
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -270
 			},
@@ -31688,6 +33342,36 @@
 			rotation: {
 				z: -447.57504
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 44.85278,
+						y: 43.512512,
+						z: 3.101511,
+						rotZ: -447.57504,
+						isStaticMesh: true
+					},
+					x: 44.85278,
+					y: 43.512512,
+					z: 3.101511,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -447.57504
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -447.57504
 			},
@@ -31708,6 +33392,36 @@
 			rotation: {
 				z: -447.57504
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 45.89946,
+						y: 44.636517,
+						z: 4.933728,
+						rotZ: -447.57504,
+						isStaticMesh: true
+					},
+					x: 45.89946,
+					y: 44.636517,
+					z: 4.933728,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -447.57504
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -447.57504
 			},
@@ -31799,6 +33513,30 @@
 			x: 31.49165,
 			y: 15.165479,
 			z: 4.998676,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 31.49165,
+						y: 15.165479,
+						z: 4.998676,
+						isStaticMesh: true
+					},
+					x: 31.49165,
+					y: 15.165479,
+					z: 4.998676,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 31.49165,
 				y: 15.165479,
@@ -31813,6 +33551,30 @@
 			x: 37.908237,
 			y: 20.49017,
 			z: 6.550601,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 37.908237,
+						y: 20.49017,
+						z: 6.550601,
+						isStaticMesh: true
+					},
+					x: 37.908237,
+					y: 20.49017,
+					z: 6.550601,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 37.908237,
 				y: 20.49017,
@@ -31827,6 +33589,30 @@
 			x: 39.359516,
 			y: 26.07143,
 			z: 4.4544187,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 39.359516,
+						y: 26.07143,
+						z: 4.4544187,
+						isStaticMesh: true
+					},
+					x: 39.359516,
+					y: 26.07143,
+					z: 4.4544187,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 39.359516,
 				y: 26.07143,
@@ -31989,6 +33775,34 @@
 			x: 29.089937,
 			y: 22.44589,
 			z: -0.48003834,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.ParticleEmitter,
+					id: "",
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+						tex: 14,
+						spriteTex: editor
+					},
+					x: 29.089937,
+					y: 22.44589,
+					z: -0.48003834,
+					particleStartTex: 49,
+					particleEndTex: 51,
+					particlesCollide: false,
+					particleSpread: {
+						x: 0.2,
+						y: 0.9
+					},
+					particleRandomVelocity: {
+						
+					},
+					particlesFloat: true,
+					particleEndScale: 0.1,
+					particleSpawnInterval: 6,
+					spawnDistance: 20
+				}
+			],
 			lastPosition: {
 				x: 29.089937,
 				y: 22.44589,
@@ -32151,6 +33965,36 @@
 			rotation: {
 				z: -270
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 27.114279,
+						y: 24.519993,
+						z: 3.6552987,
+						rotZ: -270,
+						isStaticMesh: true
+					},
+					x: 27.114279,
+					y: 24.519993,
+					z: 3.6552987,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -270
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -270
 			},
@@ -33305,6 +35149,30 @@
 			x: 21.418854,
 			y: 46.290268,
 			z: 7.8119087,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 21.418854,
+						y: 46.290268,
+						z: 7.8119087,
+						isStaticMesh: true
+					},
+					x: 21.418854,
+					y: 46.290268,
+					z: 7.8119087,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 21.418854,
 				y: 46.290268,
@@ -33319,6 +35187,30 @@
 			x: 27.388287,
 			y: 50.70068,
 			z: 8.25,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 27.388287,
+						y: 50.70068,
+						z: 8.25,
+						isStaticMesh: true
+					},
+					x: 27.388287,
+					y: 50.70068,
+					z: 8.25,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 27.388287,
 				y: 50.70068,
@@ -33507,6 +35399,30 @@
 			x: 42.388287,
 			y: 49.70068,
 			z: 7.375,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/pine.obj,
+						x: 42.388287,
+						y: 49.70068,
+						z: 7.375,
+						isStaticMesh: true
+					},
+					x: 42.388287,
+					y: 49.70068,
+					z: 7.375,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/pine.obj
+				}
+			],
 			lastPosition: {
 				x: 42.388287,
 				y: 49.70068,
@@ -34399,6 +36315,101 @@
 			x: 30.5,
 			y: 45.5,
 			z: 5.8124995,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Group,
+					x: 30.5,
+					y: 45.5,
+					z: 5.8124995,
+					entities: [
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 30.8,
+							y: 45.6,
+							z: 5.8124995,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 30.3,
+							y: 45.4,
+							z: 5.8124995,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 30.5,
+							y: 45.5,
+							z: 5.8124995,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 30.3,
+							y: 45.4,
+							z: 5.8124995,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 30.6,
+							y: 45.8,
+							z: 5.8124995,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						}
+					],
+					lastPosition: {
+						x: 30.5,
+						y: 45.5,
+						z: 5.8124995
+					}
+				}
+			],
 			lastPosition: {
 				x: 30.5,
 				y: 45.5,
@@ -34416,6 +36427,107 @@
 			rotation: {
 				z: -180
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Group,
+					x: 31.418419,
+					y: 46.63817,
+					z: 5.760198,
+					rotation: {
+						z: -180
+					},
+					entities: [
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 31.11842,
+							y: 46.53817,
+							z: 5.760198,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 31.61842,
+							y: 46.738167,
+							z: 5.760198,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 31.418419,
+							y: 46.63817,
+							z: 5.760198,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 31.61842,
+							y: 46.738167,
+							z: 5.760198,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						},
+						{
+							class: com.interrupt.dungeoneer.entities.Foliage,
+							drawable: {
+								class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
+								artType: sprite,
+								tex: 1,
+								isStatic: true,
+								spriteTex: sprite
+							},
+							x: 31.318419,
+							y: 46.33817,
+							z: 5.760198,
+							tex: 1,
+							spriteAtlas: sprite,
+							isDynamic: false
+						}
+					],
+					lastRot: {
+						z: -180
+					},
+					lastPosition: {
+						x: 31.418419,
+						y: 46.63817,
+						z: 5.760198
+					}
+				}
+			],
 			lastRot: {
 				z: -180
 			},
@@ -34436,6 +36548,36 @@
 			rotation: {
 				z: -483.32074
 			},
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						scale: 0.75,
+						meshFile: meshes/debris_0.obj,
+						x: 31.839876,
+						y: 33.94392,
+						z: -0.14294654,
+						rotZ: -483.32074,
+						isStaticMesh: true
+					},
+					x: 31.839876,
+					y: 33.94392,
+					z: -0.14294654,
+					isSolid: true,
+					collision: {
+						x: 0.5,
+						y: 0.15,
+						z: 0.8
+					},
+					scale: 0.75,
+					isDynamic: false,
+					rotation: {
+						z: -483.32074
+					},
+					meshFile: meshes/debris_0.obj
+				}
+			],
 			lastRot: {
 				z: -483.32074
 			},
@@ -35150,6 +37292,30 @@
 			x: 52.03531,
 			y: 37.274395,
 			z: 6.295936,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/tree.obj,
+						x: 52.03531,
+						y: 37.274395,
+						z: 6.295936,
+						isStaticMesh: true
+					},
+					x: 52.03531,
+					y: 37.274395,
+					z: 6.295936,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/tree.obj
+				}
+			],
 			lastPosition: {
 				x: 52.03531,
 				y: 37.274395,
@@ -35164,6 +37330,30 @@
 			x: 52.73513,
 			y: 33.250122,
 			z: 4.8845425,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/tree.obj,
+						x: 52.73513,
+						y: 33.250122,
+						z: 4.8845425,
+						isStaticMesh: true
+					},
+					x: 52.73513,
+					y: 33.250122,
+					z: 4.8845425,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/tree.obj
+				}
+			],
 			lastPosition: {
 				x: 52.73513,
 				y: 33.250122,
@@ -35178,6 +37368,30 @@
 			x: 53.343063,
 			y: 29.270756,
 			z: 3.9659774,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/tree.obj,
+						x: 53.343063,
+						y: 29.270756,
+						z: 3.9659774,
+						isStaticMesh: true
+					},
+					x: 53.343063,
+					y: 29.270756,
+					z: 3.9659774,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/tree.obj
+				}
+			],
 			lastPosition: {
 				x: 53.343063,
 				y: 29.270756,
@@ -35192,6 +37406,30 @@
 			x: 52.79503,
 			y: 49.264782,
 			z: 7.1883655,
+			entities: [
+				{
+					class: com.interrupt.dungeoneer.entities.Model,
+					drawable: {
+						class: com.interrupt.dungeoneer.gfx.drawables.DrawableMesh,
+						meshFile: meshes/tree.obj,
+						x: 52.79503,
+						y: 49.264782,
+						z: 7.1883655,
+						isStaticMesh: true
+					},
+					x: 52.79503,
+					y: 49.264782,
+					z: 7.1883655,
+					isSolid: true,
+					collision: {
+						x: 0.2,
+						y: 0.2,
+						z: 2
+					},
+					isDynamic: false,
+					meshFile: meshes/tree.obj
+				}
+			],
 			lastPosition: {
 				x: 52.79503,
 				y: 49.264782,
@@ -35240,9 +37478,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 1
 				},
 				artType: sprite,
@@ -35257,9 +37495,9 @@
 			z: -0.29188004,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 1
 			},
 			fogColor: {
@@ -35274,9 +37512,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 1
 				},
 				artType: sprite,
@@ -35291,9 +37529,9 @@
 			z: -0.35859334,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 1
 			},
 			fogColor: {
@@ -35308,9 +37546,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.3137255
 				},
 				artType: sprite,
@@ -35325,9 +37563,9 @@
 			z: -2.2028313,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.3137255
 			},
 			fogColor: {
@@ -35342,9 +37580,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.3137255
 				},
 				artType: sprite,
@@ -35359,9 +37597,9 @@
 			z: -2.2028313,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.3137255
 			},
 			fogColor: {
@@ -35376,9 +37614,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.3137255
 				},
 				artType: sprite,
@@ -35393,9 +37631,9 @@
 			z: -2.2028313,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.3137255
 			},
 			fogColor: {
@@ -35410,9 +37648,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.3137255
 				},
 				artType: sprite,
@@ -35427,9 +37665,9 @@
 			z: -2.2028313,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.3137255
 			},
 			fogColor: {
@@ -35444,9 +37682,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.3137255
 				},
 				artType: sprite,
@@ -35461,9 +37699,9 @@
 			z: -1.2029586,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.3137255
 			},
 			fogColor: {
@@ -35478,9 +37716,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.3137255
 				},
 				artType: sprite,
@@ -35495,9 +37733,9 @@
 			z: -2.2028313,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.3137255
 			},
 			fogColor: {
@@ -35512,9 +37750,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.3137255
 				},
 				artType: sprite,
@@ -35529,9 +37767,9 @@
 			z: -2.2028313,
 			scale: 1.5,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.3137255
 			},
 			fogColor: {
@@ -35546,9 +37784,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.7058824
 				},
 				artType: sprite,
@@ -35563,9 +37801,9 @@
 			z: -4.26688,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.7058824
 			},
 			fogColor: {
@@ -35580,9 +37818,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.7058824
 				},
 				artType: sprite,
@@ -35597,9 +37835,9 @@
 			z: -4.26688,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.7058824
 			},
 			fogColor: {
@@ -35614,9 +37852,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.7058824
 				},
 				artType: sprite,
@@ -35631,9 +37869,9 @@
 			z: -4.26688,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.7058824
 			},
 			fogColor: {
@@ -35648,9 +37886,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.7058824
 				},
 				artType: sprite,
@@ -35665,9 +37903,9 @@
 			z: -4.26688,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.7058824
 			},
 			fogColor: {
@@ -35682,9 +37920,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.7058824
 				},
 				artType: sprite,
@@ -35699,9 +37937,9 @@
 			z: -4.7078233,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.7058824
 			},
 			fogColor: {
@@ -35716,9 +37954,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.7058824
 				},
 				artType: sprite,
@@ -35733,9 +37971,9 @@
 			z: -4.26688,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.7058824
 			},
 			fogColor: {
@@ -35750,9 +37988,9 @@
 			drawable: {
 				class: com.interrupt.dungeoneer.gfx.drawables.DrawableSprite,
 				color: {
-					r: 4.4217985E-17,
+					r: 9.500802E-14,
 					g: 1,
-					b: 4.7470358E-11,
+					b: 6.023115E-9,
 					a: 0.7058824
 				},
 				artType: sprite,
@@ -35767,9 +38005,9 @@
 			z: -4.26688,
 			scale: 1.75,
 			color: {
-				r: 4.4217985E-17,
+				r: 9.500802E-14,
 				g: 1,
-				b: 4.7470358E-11,
+				b: 6.023115E-9,
 				a: 0.7058824
 			},
 			fogColor: {
@@ -35966,6 +38204,7 @@
 				z: 0.25
 			},
 			triggerType: PLAYER_TOUCHED,
+			triggersId: SPAWN_START_NOTE,
 			triggerResets: false,
 			flashColor: {
 				a: 1
@@ -36032,6 +38271,22 @@
 				meshFile: "",
 				textureFile: ""
 			}
+		},
+		{
+			class: com.interrupt.dungeoneer.entities.EntitySpawner,
+			id: SPAWN_START_NOTE,
+			x: 27.5,
+			y: 45.5,
+			z: 7.5625,
+			spriteAtlas: hidden,
+			hidden: true,
+			rotation: {
+				z: -720
+			},
+			entityCategory: Tutorial,
+			entityName: TutorialNote,
+			destroyAfterSpawn: true,
+			placement: player_inventory
 		}
 	],
 	non_collidable_entities: [
@@ -36117,8 +38372,8 @@
 		a: 1
 	},
 	tempLightColor: {
-		r: 0.021775689,
-		g: 0.0052894116,
-		b: 0.004304314
+		r: 0.019607844,
+		g: 0.003921569,
+		b: 0.003921569
 	}
 }
