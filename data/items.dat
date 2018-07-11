@@ -261,7 +261,7 @@
 				spriteAtlas:"DMC-Classes",
 				name:"Blue Stinger",
 				baseDamage:1,
-				randDamage:5,
+				randDamage:4,
 				durability: 50,
 				knockback:0.1,
 				reach:0.35,
