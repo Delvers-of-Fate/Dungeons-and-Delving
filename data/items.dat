@@ -254,6 +254,29 @@
 		melee:{
 		"9" : [
 			{
+				class:com.interrupt.dungeoneer.entities.items.Sword,
+				itemType:sword,
+				tex:18,
+				brokenTex:19,
+				spriteAtlas:"DMC-Classes",
+				name:"Blue Stinger",
+				baseDamage:1,
+				randDamage:5,
+				durability: 50,
+				knockback:0.1,
+				reach:0.35,
+				speed:1.0,
+				scale:0.93,
+				chargespeed:1.0,
+				yOffset: -0.33
+				cost:350,
+				pickupSound:"pu_metal.mp3",
+				attackAnimation:"daggerAttack",
+				attackStrongAnimation:"daggerAttackStrong",
+				chargeAnimation:"daggerCharge",
+				dropSound:"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3"
+			},
+			{
 			class:com.interrupt.dungeoneer.entities.items.Sword,
 			itemType:sword,
 			tex:0,
@@ -319,20 +342,6 @@
 			cost:20,
 			yOffset: -0.30,
 			twoHanded:true
-			},
-			{
-				class: com.interrupt.dungeoneer.entities.items.Gun
-				roll: 45
-				tex: 32
-				name: Gunwand
-				projectileNum: 5
-				projectileSpreadX: 15
-				projectileSpreadY: 15
-				attackAnimation: wandAttack
-				attackStrongAnimation: wandAttack
-				chargeAnimation: wandCharge
-				automatic: false
-				ammoType: "BULLET"
 			},
 			{
 			class:com.interrupt.dungeoneer.entities.items.Bow,

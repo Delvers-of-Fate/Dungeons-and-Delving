@@ -380,12 +380,12 @@
         "atk": 1,
         "ranged": true,
         "keepDistance": true,
-        "maxHp": 1,
+        "maxHp": 3,
         "spells": [{
           "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
           "mpCost": 4,
-          "baseDamage": 2,
-          "randDamage": 3,
+          "baseDamage": 1,
+          "randDamage": 1,
           "damageType": "FIRE",
           "spellColor": { "class": "com.badlogic.gdx.graphics.Color", "r": 1, "g": 0, "b": 0 },
           "castSound": "magic/mg_fire_shoot_01.mp3,magic/mg_fire_shoot_02.mp3,magic/mg_fire_shoot_03.mp3,magic/mg_fire_shoot_04.mp3",
@@ -440,24 +440,6 @@
         "idleSound": "mobs/zombie/en_zombie_idle_01.mp3,mobs/zombie/en_zombie_idle_02.mp3,mobs/zombie/en_zombie_idle_03.mp3",
         "collision": { "x": 0.3, "y": 0.3, "z":0.8 }
       },
-      {
-        "class": "com.interrupt.dungeoneer.entities.Monster",
-        "tex": 80,
-        "name": "CLERIC",
-        "speed": 0.004,
-        "atk": 2,
-        "ranged": true,
-        "keepDistance": false,
-        "maxHp": 4,
-        "spriteAtlas": "entities_dmcr",
-        "spells": [{
-          "class": "com.interrupt.dungeoneer.entities.spells.MagicMissile",
-          "mpCost": 1,
-          "baseDamage": 1,
-          "randDamage": 2,
-          "damageType": "MAGIC",
-          "spellColor":{ "class": "com.badlogic.gdx.graphics.Color", "r": 0.85, "g": 1, "b": 0 }
-        },
         {
           "class": "com.interrupt.dungeoneer.entities.spells.SpreadMagicMissile",
           "numProjectiles": 5,
