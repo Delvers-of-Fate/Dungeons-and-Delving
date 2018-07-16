@@ -55,34 +55,4 @@
 			"u_wave_offset": 0.5
 		}
 	},
-	{
-		"name": "post_filter_Fancy",
-		"vertex": "post_filter_fancy.vert",
-		"fragment": "post_filter_fancy.frag"
-	},
-	{
-        "name": "post_filter_Dark",
-        "vertex": "post_filter_dark.vert",
-        "fragment": "post_filter_dark.frag"
-    },
-	{
-		"name": "post_filter_Retro",
-		"vertex": "post_filter_retro.vert",
-		"fragment": "post_filter_retro.frag"
-	},
-	{
-		"name": "post_filter_2002",
-		"vertex": "post_filter_2002.vert",
-		"fragment": "post_filter_2002.frag"
-	},
-	{
-		"name": "post_filter_Darkest",
-		"vertex": "post_filter_darkest.vert",
-		"fragment": "post_filter_darkest.frag"
-	},
-	{
-        "name": "post_filter_Underworld",
-        "vertex": "post_filter_underworld.vert",
-        "fragment": "post_filter_underworld.frag"
-    }
 ]

@@ -116,7 +116,6 @@
         "maxHp": 5,
         "atk": 2,
         "chasetarget": false,
-		"damageType": "ICE",
         "hasAttackAnim": false,
         "spriteAtlas": "entities_dmcr",
         "bloodType": "Slime",
@@ -132,34 +131,6 @@
         "hurtAnimation": { "start": 23, "end": 26, "speed": 22 },
         "attackAnimation": { "start": 21, "end": 22, "speed": 35, "actions": {
           "22": [{
-            "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"
-          }]}
-        }
-      },
-	  	    {
-        "class": "com.interrupt.dungeoneer.entities.Monster",
-        "tex": 288,
-        "name": "RED SLIME",
-        "speed": 0.0035,
-        "maxHp": 5,
-        "atk": 2,
-		"damageType": "FIRE",
-        "chasetarget": false,
-        "hasAttackAnim": false,
-        "spriteAtlas": "entities_DunSprites",
-        "bloodType": "Slime",
-        "bloodPoolDecal": { "isActive": false },
-        "bloodSplatterDecal": { "isActive": false },
-        "canOpenDoors": false,
-        "alertSound": "mobs/slime/en_slime_alert_01.ogg,mobs/slime/en_slime_alert_02.ogg,mobs/slime/en_slime_alert_03.ogg",
-        "attackSound": "mobs/slime/en_slime_attack_01.ogg,mobs/slime/en_slime_attack_02.ogg,mobs/slime/en_slime_attack_03.ogg",
-        "dieSound": "mobs/slime/en_slime_die_01.ogg,mobs/slime/en_slime_die_02.ogg,mobs/slime/en_slime_die_03.ogg",
-        "hurtSound": "mobs/slime/en_slime_hurt_01.ogg,mobs/slime/en_slime_hurt_02.ogg,mobs/slime/en_slime_hurt_03.ogg",
-        "idleSound": "mobs/slime/en_slime_idle_01.ogg,mobs/slime/en_slime_idle_02.ogg,mobs/slime/en_slime_idle_03.ogg",
-        "walkAnimation": { "start": 288, "end": 292, "speed": 35 },
-        "hurtAnimation": { "start": 291, "end": 292, "speed": 22 },
-        "attackAnimation": { "start": 293, "end": 297, "speed": 35, "actions": {
-          "296": [{
             "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"
           }]}
         }
@@ -230,120 +201,6 @@
         "dieAnimation": { "start": 60, "end": 62, "speed": 22 },
         "spriteAtlas": "entities_dmcr"
       },
-	  {
-        "class": "com.interrupt.dungeoneer.entities.Monster",
-        "tex": 64,
-        "name": "ZOMBIE THUG",
-        "speed": 0.004,
-        "atk": 2,
-        "maxHp": 10,
-        "damageType": "POISON",
-        "canOpenDoors": false,
-        "walkAnimation": { "start": 64, "end": 65, "speed": 30 },
-        "attackAnimation": { "start": 66, "end": 66, "speed": 30, "actions":{
-          "66": [{
-            "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]}
-        },
-        "hurtAnimation": { "start": 67, "end": 70, "speed": 22 },
-        "dieAnimation": { "start": 60, "end": 62, "speed": 22 },
-        "spriteAtlas": "entities_dmcr",
-        "alertSound": "mobs/zombie/en_zombie_alert_01.mp3,mobs/zombie/en_zombie_alert_02.mp3,mobs/zombie/en_zombie_alert_03.mp3",
-        "attackSound": "mobs/zombie/en_zombie_attack_01.mp3,mobs/zombie/en_zombie_attack_02.mp3,mobs/zombie/en_zombie_attack_03.mp3",
-        "dieSound": "mobs/zombie/en_zombie_death_01.mp3,mobs/zombie/en_zombie_death_02.mp3,mobs/zombie/en_zombie_death_03.mp3",
-        "hurtSound": "mobs/zombie/en_zombie_hurt_01.mp3,mobs/zombie/en_zombie_hurt_02.mp3,mobs/zombie/en_zombie_hurt_03.mp3",
-        "idleSound": "mobs/zombie/en_zombie_idle_01.mp3,mobs/zombie/en_zombie_idle_02.mp3,mobs/zombie/en_zombie_idle_03.mp3",
-        "collision": { "x": 0.3, "y": 0.3, "z":0.8 }
-     },
 	],
-	    "UNDEAD": [
-      {
-        "class": "com.interrupt.dungeoneer.entities.Monster",
-        "tex": 272,
-        "name": "SKELETON FORGE MASTER",
-        "speed": 0.0035,
-        "atk": 5,
-        "maxHp": 36,
-        "baseLevel": 7,
-        "bloodType": "Bone",
-        "bloodPoolDecal": { "isActive": false },
-        "bloodSplatterDecal": { "isActive": true },
-        "spriteAtlas": "entities_dmcr",
-        "alertSound": "mobs/skeleton/en_skel_alert_01.ogg,mobs/skeleton/en_skel_alert_02.ogg,mobs/skeleton/en_skel_alert_03.ogg",
-        "attackSound": "mobs/skeleton/en_skel_attack_01.ogg,mobs/skeleton/en_skel_attack_02.ogg,mobs/skeleton/en_skel_attack_03.ogg",
-        "dieSound": "mobs/skeleton/en_skel_death_01.ogg,mobs/skeleton/en_skel_death_02.ogg,mobs/skeleton/en_skel_death_03.ogg",
-        "hurtSound": "mobs/skeleton/en_skel_hurt_01.ogg,mobs/skeleton/en_skel_hurt_02.ogg,mobs/skeleton/en_skel_hurt_03.ogg",
-        "idleSound": "mobs/skeleton/en_skel_idle_01.ogg,mobs/skeleton/en_skel_idle_02.ogg,mobs/skeleton/en_skel_idle_03.ogg",
-        "walkAnimation": { "start": 272, "end": 273, "speed": 30 },
-        "attackAnimation": { "start": 274, "end": 275, "speed": 30, "actions": { 275: [{
-            "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]}
-        },
-        "hurtAnimation": { "start": 276, "end": 279, "speed": 22 },
-        "dieAnimation": { "start": 60, "end": 62, "speed": 22 }
-      },
-      {
-        "class": "com.interrupt.dungeoneer.entities.Monster",
-        "tex": 256,
-        "name": "WILL O WISP",
-        "floating": true,
-        "speed": 0.0022,
-        "atk": 5,
-        "maxHp": 4,
-        "bloodType": "Bone",
-        "spriteAtlas": "entities_dmcr",
-        "bloodPoolDecal":{ "isActive": false },
-        "bloodSplatterDecal": { "isActive": false },
-        "canOpenDoors": false,
-        "alertSound": "mobs/skull/en_skull_alert_01.ogg,mobs/skull/en_skull_alert_02.ogg,mobs/skull/en_skull_alert_03.ogg",
-        "attackSound": "mobs/skull/en_skull_atk_01.ogg,mobs/skull/en_skull_atk_02.ogg,mobs/skull/en_skull_atk_03.ogg",
-        "dieSound": "mobs/skull/en_skull_die_01.ogg,mobs/skull/en_skull_die_02.ogg,mobs/skull/en_skull_die_03.ogg",
-        "hurtSound": "mobs/skull/en_skull_hurt_01.ogg,mobs/skull/en_skull_hurt_02.ogg,mobs/skull/en_skull_hurt_03.ogg",
-        "idleSound": "mobs/skull/en_skull_idle_01.ogg,mobs/skull/en_skull_idle_02.ogg,mobs/skull/en_skull_idle_03.ogg",
-        "walkAnimation": { "start": 256, "end": 257, "speed": 30 },
-        "attackAnimation": { "start": 258, "end": 259, "speed": 30, "actions": {
-          "259": [{
-            "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]}
-        },
-        "hurtAnimation": { "start": 260, "end": 263, "speed": 22 },
-        "dieAnimation": { "start": 60, "end": 62, "speed": 22 }
-      }
-    ],
-	    "UNDERLANDS": [
-      {
-        "class": "com.interrupt.dungeoneer.entities.Monster",
-        "tex": 144,
-        "name": "GHOST",
-        "floating": true,
-        "speed": 0.0022,
-        "atk": 5,
-        "maxHp": 4,
-        "bloodType": "Bone",
-        "spriteAtlas": "entities_DunSprites",
-        "bloodPoolDecal": { "isActive": false },
-        "bloodSplatterDecal": { "isActive": false },
-        "canOpenDoors": false,
-        "attached": [{
-          "class": "com.interrupt.dungeoneer.entities.DynamicLight",
-          "id": "",
-          "range": 1.5,
-          "lightColor": { "x": 0.0, "y": 0.0, "z": 1.0 },
-          "lightType": "fire",
-          "z": -0.1,
-          "hasHalo": true,
-          "haloSize": 0.3
-        }],
-        "alertSound": "mobs/skull/en_skull_alert_01.ogg,mobs/skull/en_skull_alert_02.ogg,mobs/skull/en_skull_alert_03.ogg",
-        "attackSound": "mobs/skull/en_skull_atk_01.ogg,mobs/skull/en_skull_atk_02.ogg,mobs/skull/en_skull_atk_03.ogg",
-        "dieSound": "mobs/skull/en_skull_die_01.ogg,mobs/skull/en_skull_die_02.ogg,mobs/skull/en_skull_die_03.ogg",
-        "hurtSound": "mobs/skull/en_skull_hurt_01.ogg,mobs/skull/en_skull_hurt_02.ogg,mobs/skull/en_skull_hurt_03.ogg",
-        "idleSound": "mobs/skull/en_skull_idle_01.ogg,mobs/skull/en_skull_idle_02.ogg,mobs/skull/en_skull_idle_03.ogg",
-        "walkAnimation": { "start": 144, "end": 145, "speed": 30 },
-        "attackAnimation": { "start": 146, "end": 146, "speed": 30, "actions": {
-          "146": [{
-            "class": "com.interrupt.dungeoneer.gfx.animation.DamageAction"}]}
-        },
-        "hurtAnimation": { "start": 147, "end": 150, "speed": 22 },
-        "dieAnimation": { "start": 151, "end": 162, "speed": 80 }
-      }
-    ]
 	}
 }

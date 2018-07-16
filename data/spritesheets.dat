@@ -5,6 +5,12 @@
         "scale": 1,
         "name": "skullSpider"
     },
+	{
+	    "columns": 6,
+        "filename": "sprites/Mana.png",
+        "scale": 0.5,
+        "name": "Mana"
+	},
 	    {
         "columns": 8,
         "filename": "sprites/CrossbowTileset.png",

@@ -92,14 +92,14 @@
                 "cost":90,
                 "twoHanded":false
 		},
-						{
+			{
 				class:com.interrupt.dungeoneer.entities.items.ItemStack,
 				itemType:stack,
 				item: {
 					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
 					name:"TrapArrow",
 					tex: 15,
-			 attached: [
+					attached: [
                   {
                         class: com.interrupt.dungeoneer.entities.Explosion,
                         makeDustRing:false,
@@ -141,7 +141,7 @@
 				tex:4,
 				name:"TrapArrows",
 				count:4,
-				scale: 0.5,
+				scale: 1,
 				yOffset:-0.33,
 				cost:10,
 				attached: [
@@ -266,7 +266,8 @@
 				knockback:0.1,
 				reach:0.35,
 				speed:1.0,
-				scale:0.93,
+				scale:0.85,
+				unique:true,
 				chargespeed:1.0,
 				yOffset: -0.33
 				cost:350,
@@ -357,7 +358,109 @@
 			cost:20,
 			yOffset: -0.29,
 			twoHanded:true
-			}
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				itemType:stack,
+				item: {
+					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
+					name:"Blue Mana",
+					tex: 0,
+				},
+				stackType:"BMANA",
+				spriteAtlas: "Mana",
+				tex:0,
+				name:"Blue Mana",
+				count:1,
+				scale: 1.0,
+				yOffset:-0.10,
+				cost:10,
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				itemType:stack,
+				item: {
+					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
+					name:"Green Mana",
+					tex: 0,
+				},
+				stackType:"GMANA",
+				spriteAtlas: "Mana",
+				tex:2,
+				name:"Green Mana",
+				count:1,
+				scale: 1.0,
+				yOffset:-0.10,
+				cost:10,
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				itemType:stack,
+				item: {
+					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
+					name:"Red Mana",
+					tex: 0,
+				},
+				stackType:"RMANA",
+				spriteAtlas: "Mana",
+				tex:4,
+				name:"Red Mana",
+				count:1,
+				scale: 1.0,
+				yOffset:-0.10,
+				cost:10,
+			},
+						{
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				itemType:stack,
+				item: {
+					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
+					name:"Blue Mana x3",
+					tex: 0,
+				},
+				stackType:"BMANA",
+				spriteAtlas: "Mana",
+				tex:1,
+				name:"Blue Mana x3",
+				count:3,
+				scale: 1.0,
+				yOffset:-0.10,
+				cost:10,
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				itemType:stack,
+				item: {
+					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
+					name:"Green Mana x3",
+					tex: 0,
+				},
+				stackType:"GMANA",
+				spriteAtlas: "Mana",
+				tex:3,
+				name:"Green Mana x3",
+				count:3,
+				scale: 1.0,
+				yOffset:-0.10,
+				cost:10,
+			},
+			{
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				itemType:stack,
+				item: {
+					class:com.interrupt.dungeoneer.entities.projectiles.Missile,
+					name:"Red Mana x3",
+					tex: 0,
+				},
+				stackType:"RMANA",
+				spriteAtlas: "Mana",
+				tex:5,
+				name:"Red Mana x3",
+				count:3,
+				scale: 1.0,
+				yOffset:-0.10,
+				cost:10,
+			},
 		]
 	},
 		armor:{

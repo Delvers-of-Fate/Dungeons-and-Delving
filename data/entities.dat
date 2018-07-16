@@ -379,7 +379,7 @@
 				},
 				isSolid: true,
 				shader: "magic-item-red",
-				},
+				}
 			
 		},
 	"Rogue Items": {
@@ -537,6 +537,13 @@
 	"Low Res Options": {
 	  "Animated Sprite": {
 	"class": "com.interrupt.dungeoneer.entities.AnimatedSprite",
+	"tex": 15
+	},
+	  "Path Node": {
+	"class": "com.interrupt.dungeoneer.entities.PathNode",
+	},
+	  "Particle Emitter": {
+	"class": "com.interrupt.dungeoneer.entities.ParticleEmitter",
 	"tex": 15
 	},
 	  "Sprite Beam": {
